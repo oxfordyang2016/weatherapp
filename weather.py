@@ -29,7 +29,7 @@ def fetch_data():
 
     #conect_db
      try:
-         conn =psycopg2.connect(dbname='weather',user='postgres',host='localhost',password='123456')
+         conn =psycopg2.connect(dbname='d9apk8i46rfo8d',user='moxiqfcupkklsg',host='ec2-54-243-199-161.compute-1.amazonaws.com',password='xNL4vr8uvm_gQ7zaKaVGounfZ7')
          print('connect db success')
      except:
          print('aganin do')
