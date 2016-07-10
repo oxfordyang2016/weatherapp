@@ -26,7 +26,7 @@ SECRET_KEY = 'fs2@y$$5pkzwjlt7j7lu1&8am9ecrka*2+u@#43qf3_)^iwn-$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [yangmingweatherapp.heroku.com]
+ALLOWED_HOSTS = ['yangmingweatherapp.heroku.com']
 
 
 # Application definition
