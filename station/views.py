@@ -6,6 +6,7 @@ from django.http import HttpResponse
 from datetime import datetime
 #from django.tmplate.response import TempalteResponse
 from station.models import Reading
+from ipware.ip import get_ip
 
 def home(request):
     dat = Reading.objects.last()
@@ -14,4 +15,9 @@ def home(request):
     #context = {}
     #context['data']=dat
     #return HttpResponse(request,'index.html',context)
-    return render_to_response('index.html', {'data': ti,'weather':dat ,'visitor':visitor_ip})
+    ip = get_ip(request)
+    if ip is not None:
+        print("we have an IP address for user")
+    else:
+        print("we don't have an IP address for user")
+    return render_to_response('index.html', {'data': ti,'weather':dat ,'visitor':ip})
