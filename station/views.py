@@ -20,4 +20,4 @@ def home(request):
         print("we have an IP address for user")
     else:
         print("we don't have an IP address for user")
-    return render_to_response('index.html', {'data': ti,'weather':dat ,'visitor':ip})
+    return render_to_response('index.html', {'data': ti,'weather':dat ,'visitor_ip':ip})
