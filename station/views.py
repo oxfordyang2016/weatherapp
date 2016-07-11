@@ -18,7 +18,7 @@ def home(request):
     #context['data']=dat
     #return HttpResponse(request,'index.html',context)
     ip = get_ip(request)
-    url = 'http: // ip - api.com / json /'+str(ip)
+    url = 'http://ip-api.com/json/'+str(ip)
     r = requests.get(url).json()
     ip_pool.append(ip)
 
