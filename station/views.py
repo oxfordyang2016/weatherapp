@@ -10,7 +10,10 @@ from station.models import Reading
 from ipware.ip import get_ip
 ip_pool = []
 #as visitor count
+i=0
 def home(request):
+    global i
+    i = i+1
     dat = Reading.objects.last()
     ti = datetime.now()
     visitor_ip = request.META['HTTP_X_FORWARDED_FOR']#try get visitor ip
@@ -22,7 +25,7 @@ def home(request):
     r = requests.get(url).json()
     ip_pool.append(ip)
 
-    visitor_people = 'You Are The'+str(len(ip_pool)) +'st  '+'Visitor'
+    visitor_people = 'You Are The'+str(i) +'st  '+'Visitor'
     if ip is not None:
         print("we have an IP address for user")
     else:
@@ -30,4 +33,6 @@ def home(request):
     return render_to_response('index.html', {'data': ti,'weather':dat ,'visitor_ip':ip,'count_visitor':visitor_people,'more_info':r})
 
 def server(request):
+    global  i
+    i= i+ 1
     return render_to_response(('storyofshanghai.html',{}))
