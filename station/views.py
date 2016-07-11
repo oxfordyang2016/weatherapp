@@ -28,3 +28,6 @@ def home(request):
     else:
         print("we don't have an IP address for user")
     return render_to_response('index.html', {'data': ti,'weather':dat ,'visitor_ip':ip,'count_visitor':visitor_people,'more_info':r})
+
+def server(request):
+    return render_to_response(('storyofshanghai.html',{}))

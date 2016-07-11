@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>story of shanghai</title>
+</head>
+<body>
+<p>div 标签是定义一个css格式化块 ,这样就可以采用在同一个Html文件里面对其进行格式化</p>
+<p>对css的理解为是对网页页面元素进行格式化，常见的有：页面的背景，字体的大小，图片的大小</p>
+<p>virtualenv 是python的包管理工具，常见的用法如下（以下是windows命令行环境）<br/>
+   1.virtualenv yangming #新建一个虚拟环境，其实就是一个文件夹<br/>
+   2.cd yangming #跳转到虚拟环境<br/>
+    3. cd scripts #进入启动环境<br/>
+    4.activate #启动虚拟环境<br/>
+    5.pip install django #安装包<br/>
+    6.deactivate #退出虚拟环境<br/>
+</p>
+<p>go语言中如何将结构体转化成为struct结构体<br/>
+ 1.首先明白什么是什么是结构体，简而言之，就是定义一个庞大对象集合，抽象定义方法如下
+    type struct_name struct {<br/>
+   member definition; <br/>
+   member definition;<br/>
+   ...
+   member definition;<br/>
+}<br/>
+    #首先这里的struct_name是你先定义的结构体名称，你想叫阿猫阿狗都行,此外结构体的属性就是你定义的每一个条目，如  member definition;别忘了";"<br/>
+</p>
+<p>
+   <a href="https://play.golang.org/"> 定义一个实际的东西给你们看看,以下代码可以直接进行粘贴到go的在线解释器里面（本地也可以啦）</a><br/>
+package main<br/>
+import "fmt"<br/>
+
+type Books struct {<br/>
+   title string<br/>
+   author string<br/>
+   subject string<br/>
+   book_id int<br/>
+}<br/>
+
+func main() {<br/>
+   var Book1 Books        /* Declare Book1 of type Book */</br>
+   var Book2 Books        /* Declare Book2 of type Book */<br/>
+
+   /* book 1 specification */<br/>
+   Book1.title = "Go Programming"<br/>
+   Book1.author = "Mahesh Kumar"<br/>
+   Book1.subject = "Go Programming Tutorial"<br/>
+   Book1.book_id = 6495407<br/>
+
+   /* book 2 specification */</br>
+   Book2.title = "Telecom Billing"</br>
+   Book2.author = "Zara Ali"<br/>
+   Book2.subject = "Telecom Billing Tutorial"<br/>
+   Book2.book_id = 6495700<br/>
+
+   /* print Book1 info */<br/>
+   fmt.Printf( "Book 1 title : %s\n", Book1.title)<br/>
+   fmt.Printf( "Book 1 author : %s\n", Book1.author)<br/>
+   fmt.Printf( "Book 1 subject : %s\n", Book1.subject)<br/>
+   fmt.Printf( "Book 1 book_id : %d\n", Book1.book_id)<br/>
+
+   /* print Book2 info */<br/>
+   fmt.Printf( "Book 2 title : %s\n", Book2.title)<br/>
+   fmt.Printf( "Book 2 author : %s\n", Book2.author)<br/>
+   fmt.Printf( "Book 2 subject : %s\n", Book2.subject)<br/>
+   fmt.Printf( "Book 2 book_id : %d\n", Book2.book_id)<br/>
+}<br/>
+</p>
+<p>3.接下来解释什么是json，简而言之是一种数据结构，更简单的来说，就是一种数据格式<br/>
+ @先来一个并不是如何好看的json
+    {"as":"AS4812 China Telecom (Group)","city":"Shanghai","country":"China","countryCode":"CN","isp":"China Telecom Shanghai","lat":31.0456,"lon":121.3997,"org":"China Telecom Shanghai","query":"180.173.36.247","region":"31","regionName":"Shanghai","status":"success","timezone":"Asia/Shanghai","zip":""}
+</br>
+    1.我们可以将其转化为python的字典数据结构，网址<br/>
+    2.我们可以将其转化为go的struct数据结构，网址<br/>
+</p>
+
+<p><a href="https://play.golang.org/">json 转化为 go struct的编程方法</a><br/>
+package main<br/>
+import (<br/>
+    "encoding/json"<br/>
+    "fmt"<br/>
+)<br/>
+
+type Result struct {<br/>
+    Positions []int<br/>
+}<br/>
+
+func main() {<br/>
+    // This JSON contains an int array.<br/>
+    text := "{\"Positions\": [100, 200, 300, -1]}"<br/>
+    // Get bytes.<br/>
+    bytes := []byte(text)<br/>
+
+    // Unmarshal JSON to Result struct.<br/>
+    var result Result<br/>
+    json.Unmarshal(bytes, &result)<br/>
+
+    // Our int array is filled.<br/>
+    fmt.Printf("Positions = %v", result.Positions)<br/>
+    fmt.Println()<br/>
+    // Print int array length.<br/>
+    fmt.Printf("Length = %v", len(result.Positions))<br/>
+    fmt.Println()<br/>
+}<br/>
+
+</p>
+
+</body>
+</html>
