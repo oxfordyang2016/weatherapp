@@ -36,3 +36,7 @@ def server(request):
     global  i
     i= i+ 1
     return render_to_response(('storyofshanghai.html',{}))
+def git(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('git.html',{}))
