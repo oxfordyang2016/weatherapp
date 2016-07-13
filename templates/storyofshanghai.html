@@ -83,8 +83,10 @@ func main() {<br/>
 }<br/>
 </p>
 <p>3.接下来解释什么是json，简而言之是一种数据结构，更简单的来说，就是一种数据格式<br/>
- @先来一个并不是如何好看的json
-    {"as":"AS4812 China Telecom (Group)","city":"Shanghai","country":"China","countryCode":"CN","isp":"China Telecom Shanghai","lat":31.0456,"lon":121.3997,"org":"China Telecom Shanghai","query":"180.173.36.247","region":"31","regionName":"Shanghai","status":"success","timezone":"Asia/Shanghai","zip":""}
+ @先来一个并不是如何好看的json<br/>
+    {"as":"AS4812 China Telecom (Group)","city":"Shanghai","country":"China","countryCode":"CN","isp":"China Telecom Shanghai",<br/>
+    "lat":31.0456,"lon":121.3997,"org":"China Telecom Shanghai","query":"180.173.36.247","region":"31","regionName":"Shanghai",<br/>
+	"status":"success","timezone":"Asia/Shanghai","zip":""}
 </br>
     1.我们可以将其转化为python的字典数据结构，网址<br/>
     2.我们可以将其转化为go的struct数据结构，网址<br/>
@@ -99,12 +101,16 @@ import (<br/>
 
 type Result struct {<br/>
     Positions []int<br/>
+	Yangming string<br/>
+	Intexample int<br/>
 }<br/>
 
 func main() {<br/>
     // This JSON contains an int array.<br/>
-    text := "{\"Positions\": [100, 200, 300, -1]}"//  1上面那个符号`{"postion":[100,200,300,400]}`<br/>
-    // Get bytes.<br/>
+    text := '{"Positions": [100, 200, 300, -1],"Yangming":"i love python an go","Intexample":25}`<br/>
+	// 如果外面使用"的话，要记得使用\进行转义， tab键上面那个符号`{"postion":[100,200,300,400]}`<br/>
+    //上面是json原生的格式
+	// Get bytes.<br/>
     bytes := []byte(text)<br/>
 
     // Unmarshal JSON to Result struct.<br/>
@@ -115,18 +121,31 @@ func main() {<br/>
     fmt.Printf("Positions = %v", result.Positions)<br/>
     fmt.Println()<br/>
     // Print int array length.<br/>
-    fmt.Printf("Length = %v", len(result.Positions))<br/>
-    fmt.Println()<br/>
+    fmt.Printf(" array Length = %v", len(result.Positions))<br/>
+    fmt.Printf("stringexp is here%s\n", result.Yangming)<br/>
+	fmt.Printf("intexp is here %d\n", result.Intexample)<br/>
+	fmt.Println()<br/>
+	
 }<br/>
 
 </p>
+上面可以进行进一步改造<br/>
+我们在上面text进行进一步的添加内容，内容如下<br/>
+
 <p>
     如何使一张图片在网页中变圆，如果图片格式为等高等宽那么出现的就是圆形，否则将是椭圆<br/>
     .img-circle {<br/>
     border-radius: 50%;<br/>
 }<br/>
-    <img class="img-circle" src="kitten.jpg"><br/>
+    下面 只需要设置图片元素就行<br/>
 </p>
+<p>
+
+
+
+
+</p>
+
 
 </body>
 </html>
