@@ -29,7 +29,7 @@ p.moreadvanced,aboutjson{
     padding-bottom: 50px;
     padding-left: 150px;
         }
-p.first-try{
+p.first-try,virtualenv{
     border-style: solid;
     border-color: blue;
                 margin-top: 100px;
@@ -42,7 +42,7 @@ p.first-try{
     padding-bottom: 50px;
     padding-left: 150px;
         }
-p.structdefine{
+p.structdefine,aboutcss{
     border-style: solid;
     border-color: yellow;
                 margin-top: 100px;
@@ -58,9 +58,11 @@ p.structdefine{
 </style>
 </head>
 <body>
-<p>div 标签是定义一个css格式化块 ,这样就可以采用在同一个Html文件里面对其进行格式化</p>
-<p>对css的理解为是对网页页面元素进行格式化，常见的有：页面的背景，字体的大小，图片的大小</p>
-<p>virtualenv 是python的包管理工具，常见的用法如下（以下是windows命令行环境）<br/>
+<p class='aboutcss'>
+div 标签是定义一个css格式化块 ,这样就可以采用在同一个Html文件里面对其进行格式化<br/>
+对css的理解为是对网页页面元素进行格式化，常见的有：页面的背景，字体的大小，图片的大小
+</p>
+<p class='virtualenv'>virtualenv 是python的包管理工具，常见的用法如下（以下是windows命令行环境）<br/>
    1.virtualenv yangming #新建一个虚拟环境，其实就是一个文件夹<br/>
    2.cd yangming #跳转到虚拟环境<br/>
     3. cd scripts #进入启动环境<br/>
@@ -68,7 +70,7 @@ p.structdefine{
     5.pip install django #安装包<br/>
     6.deactivate #退出虚拟环境<br/>
 </p>
-<p>go语言中如何将结构体转化成为struct结构体<br/>
+<p class='structdefine'>go语言中如何将结构体转化成为struct结构体<br/>
  1.首先明白什么是什么是结构体，简而言之，就是定义一个庞大对象集合，抽象定义方法如下
     type struct_name struct {<br/>
    member definition; <br/>
@@ -77,8 +79,7 @@ p.structdefine{
    member definition;<br/>
 }<br/>
     #首先这里的struct_name是你先定义的结构体名称，你想叫阿猫阿狗都行,此外结构体的属性就是你定义的每一个条目，如  member definition;别忘了";"<br/>
-</p>
-<p class='structdefine'>
+
    <a href="https://play.golang.org/"> 定义一个实际的东西给你们看看,以下代码可以直接进行粘贴到go的在线解释器里面（本地也可以啦）</a><br/>
 package main<br/>
 import "fmt"<br/>
