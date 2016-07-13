@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Yangming's json and struct</title>
+<style>
+     body{
+         background-color: indianred;
+        /* background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTb3-6QSmvkhceA6jE69NOrUV2JwJ9yABMeUsN603K_IqV5Fp8ECg');*/
+         background-repeat: repeat-y;
+
+     }
+p{
+    font-family: verdana;
+    font-size: 20px;
+
+}
+p.moreadvanced,p.aboutjson{
+    border-style: solid;
+    border-color: yellow;
+                margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+        }
+p.first-try,p.virtualenv{
+    border-style: solid;
+    border-color: blue;
+                margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+        }
+p.structdefine{
+    border-style: solid;
+    border-color: yellow;
+                margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: green;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+        }
+p.aboutcss{
+    border-style: solid;
+    border-color: yellow;
+                margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: green;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+        }
+</style>
+</head>
+<body>
+<p class='aboutcss'>
+div 标签是定义一个css格式化块 ,这样就可以采用在同一个Html文件里面对其进行格式化<br/>
+对css的理解为是对网页页面元素进行格式化，常见的有：页面的背景，字体的大小，图片的大小<br/>
+如何使一张图片在网页中变圆，如果图片格式为等高等宽那么出现的就是圆形，否则将是椭圆<br/>
+    .img-circle {<br/>
+    border-radius: 50%;<br/>
+}<br/>
+    下面 只需要设置图片元素就行<br/>
+</p>
+<p class='virtualenv'>virtualenv 是python的包管理工具，常见的用法如下（以下是windows命令行环境）<br/>
+   1.virtualenv yangming #新建一个虚拟环境，其实就是一个文件夹<br/>
+   2.cd yangming #跳转到虚拟环境<br/>
+    3. cd scripts #进入启动环境<br/>
+    4.activate #启动虚拟环境<br/>
+    5.pip install django #安装包<br/>
+    6.deactivate #退出虚拟环境<br/>
+</p>
+<p class='structdefine'>go语言中如何将结构体转化成为struct结构体<br/>
+ 1.首先明白什么是什么是结构体，简而言之，就是定义一个庞大对象集合，抽象定义方法如下
+    type struct_name struct {<br/>
+   member definition; <br/>
+   member definition;<br/>
+   ...
+   member definition;<br/>
+}<br/>
+    #首先这里的struct_name是你先定义的结构体名称，你想叫阿猫阿狗都行,此外结构体的属性就是你定义的每一个条目，如  member definition;别忘了";"<br/>
+
+   <a href="https://play.golang.org/"> 定义一个实际的东西给你们看看,以下代码可以直接进行粘贴到go的在线解释器里面（本地也可以啦）</a><br/>
+package main<br/>
+import "fmt"<br/>
+
+type Books struct {<br/>
+   title string<br/>
+   author string<br/>
+   subject string<br/>
+   book_id int<br/>
+}<br/>
+
+func main() {<br/>
+   var Book1 Books        /* Declare Book1 of type Book */</br>
+   var Book2 Books        /* Declare Book2 of type Book */<br/>
+
+   /* book 1 specification */<br/>
+   Book1.title = "Go Programming"<br/>
+   Book1.author = "Mahesh Kumar"<br/>
+   Book1.subject = "Go Programming Tutorial"<br/>
+   Book1.book_id = 6495407<br/>
+
+   /* book 2 specification */</br>
+   Book2.title = "Telecom Billing"</br>
+   Book2.author = "Zara Ali"<br/>
+   Book2.subject = "Telecom Billing Tutorial"<br/>
+   Book2.book_id = 6495700<br/>
+
+   /* print Book1 info */<br/>
+   fmt.Printf( "Book 1 title : %s\n", Book1.title)<br/>
+   fmt.Printf( "Book 1 author : %s\n", Book1.author)<br/>
+   fmt.Printf( "Book 1 subject : %s\n", Book1.subject)<br/>
+   fmt.Printf( "Book 1 book_id : %d\n", Book1.book_id)<br/>
+
+   /* print Book2 info */<br/>
+   fmt.Printf( "Book 2 title : %s\n", Book2.title)<br/>
+   fmt.Printf( "Book 2 author : %s\n", Book2.author)<br/>
+   fmt.Printf( "Book 2 subject : %s\n", Book2.subject)<br/>
+   fmt.Printf( "Book 2 book_id : %d\n", Book2.book_id)<br/>
+}<br/>
+</p>
+<p class='aboutjson'>3.接下来解释什么是json，简而言之是一种数据结构，更简单的来说，就是一种数据格式<br/>
+ @先来一个并不是如何好看的json<br/>
+    {"as":"AS4812 China Telecom (Group)","city":"Shanghai","country":"China","countryCode":"CN","isp":"China Telecom Shanghai",<br/>
+    "lat":31.0456,"lon":121.3997,"org":"China Telecom Shanghai","query":"180.173.36.247","region":"31","regionName":"Shanghai",<br/>
+	"status":"success","timezone":"Asia/Shanghai","zip":""}
+</br>
+    1.我们可以将其转化为python的字典数据结构，网址<br/>
+    2.我们可以将其转化为go的struct数据结构，网址<br/>
+</p>
+
+<p class='first-try'><a href="https://play.golang.org/">go lang online interpreter</a><br/>
+package main<br/>
+import (<br/>
+    "encoding/json"<br/>
+    "fmt"<br/>
+)<br/>
+
+type Result struct {<br/>
+    Positions []int<br/>
+	Yangming string<br/>
+	Intexample int<br/>
+}<br/>
+
+func main() {<br/>
+    // This JSON contains an int array.<br/>
+    text := `{"Positions": [100, 200, 300, -1],"Yangming":"i love python an go","Intexample":25}`<br/>
+	// 如果外面使用"的话，要记得使用\进行转义， tab键上面那个符号`{"postion":[100,200,300,400]}`<br/>
+    //上面是json原生的格式
+	// Get bytes.<br/>
+    bytes := []byte(text)<br/>
+
+    // Unmarshal JSON to Result struct.<br/>
+    var result Result<br/>
+    json.Unmarshal(bytes, &result)<br/>
+
+    // Our int array is filled.<br/>
+    fmt.Printf("Positions = %v", result.Positions)<br/>
+    fmt.Println()<br/>
+    // Print int array length.<br/>
+    fmt.Printf(" array Length = %v\n", len(result.Positions))<br/>
+    fmt.Printf("stringexp is here %s\n", result.Yangming)<br/>
+	fmt.Printf("intexp is here %d\n", result.Intexample)<br/>
+	fmt.Println()<br/>
+	
+}<br/>
+
+<p class='moreadvanced'>
+上面可以进行进一步改造<br/>
+我们在上面text进行进一步的添加内容，内容如下 <br/>
+现在的情况是如果我知道json的格式，如何迅速构建结构体来分析数据<br/>
+<a href='https://mholt.github.io/json-to-go/'>convert json to gostruct</a><br/>
+
+1.首先给出一个json格式 <br/>
+{
+    "cmd": "Login",
+    "type": "rsp",
+    "seq": "1",
+    "rsp": {
+        "code": 0,
+        "reason": "OK",
+        "body": {
+            "token": "EF02JLGFA09GVNG21F",
+            "alive_interval": 100
+        }
+    }
+}<br/>
+2.<a href ='https://mholt.github.io/json-to-go/'>在这里转化</a><br/>
+3.获得的go struct的结构体如下<br/>
+type AutoGenerated struct {
+	Cmd string `json:"cmd"`
+	Type string `json:"type"`
+	Seq string `json:"seq"`
+	Rsp struct {
+		Code int `json:"code"`
+		Reason string `json:"reason"`
+		Body struct {
+			Token string `json:"token"`
+			AliveInterval int `json:"alive_interval"`
+		} `json:"body"`
+	} `json:"rsp"`
+}<br/>
+4.说明：这里产生的结构体中的`json:"cmd"`意思是我与json中的“cmd”建立连接<br/>
+5.再一次实验json数据的提取<br/>
+package main<br/>
+import (<br/>
+    "encoding/json"<br/>
+    "fmt"<br/>
+)<br/>
+
+type Result struct {<br/>
+	Cmd string `json:"cmd"`<br/>
+	Type string `json:"type"`<br/>
+	Seq string `json:"seq"`<br/>
+	Rsp struct {<br/>
+		Code int `json:"code"`<br/>
+		Reason string `json:"reason"`<br/>
+		Body struct {<br/>
+			Token string `json:"token"`<br/>
+			AliveInterval int `json:"alive_interval"`<br/>
+		} `json:"body"`<br/>
+	} `json:"rsp"`<br/>
+}<br/> 
+
+func main() {<br/>
+    // This JSON contains an int array.<br/>
+    text := `{
+    "cmd": "Login",
+    "type": "rsp",
+    "seq": "1",
+    "rsp": {
+        "code": 0,
+        "reason": "OK",
+        "body": {
+            "token": "EF02JLGFA09GVNG21F",
+            "alive_interval": 100
+        }
+    }
+}`<br/>
+	// 如果外面使用"的话，要记得使用\进行转义， tab键上面那个符号`{"postion":[100,200,300,400]}`<br/>
+    //上面是json原生的格式
+	// Get bytes.<br/>
+    bytes := []byte(text)<br/>
+
+    // Unmarshal JSON to Result struct.<br/>
+    var result Result<br/>
+    json.Unmarshal(bytes, &result)<br/>
+
+    // Our int array is filled.<br/>
+    fmt.Printf("type = %s\n", result.Type)<br/>
+    fmt.Println()<br/>
+    fmt.Printf(" cmd info is  %s\n", result.Cmd)<br/>
+    fmt.Printf("stringexp is here %s\n", result.Rsp.Reason)<br/>
+	fmt.Printf("structtestis herr ,note caption  %d\n", result.Rsp.Body.Token)<br/>
+	fmt.Println()<br/>
+	
+}<br/>
+</p>
+
+
+
+
+
+<p>
+
+
+
+
+</p>
+
+
+</body>
+</html>
