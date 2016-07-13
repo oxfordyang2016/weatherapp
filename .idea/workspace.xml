@@ -77,25 +77,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1254">
-              <caret line="66" column="0" selection-start-line="2" selection-start-column="16" selection-end-line="66" selection-end-column="0" />
+              <caret line="67" column="0" selection-start-line="2" selection-start-column="16" selection-end-line="67" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#title#0;n#a#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1468390037927" expanded="true" signature="2798:3541" placeholder="..." />
+                <marker date="1468390037927" expanded="true" signature="2812:2837" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="git.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="git.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/git.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,9 +133,9 @@
         <option value="$PROJECT_DIR$/weather.py" />
         <option value="$PROJECT_DIR$/weatherapp/urls.py" />
         <option value="$PROJECT_DIR$/station/views.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/git.html" />
         <option value="$PROJECT_DIR$/templates/storyofshanghai.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -829,18 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="0" selection-start-line="2" selection-start-column="16" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#title#0;n#a#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/storyofshanghai.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -852,8 +840,20 @@
     <entry file="file://$PROJECT_DIR$/templates/git.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="67" column="0" selection-start-line="2" selection-start-column="16" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1468390037927" expanded="true" signature="2798:3541" placeholder="..." />
+            <marker date="1468390037927" expanded="true" signature="2812:2837" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
