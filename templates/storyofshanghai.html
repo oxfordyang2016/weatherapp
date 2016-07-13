@@ -29,7 +29,7 @@ p.moreadvanced,aboutjson{
     padding-bottom: 50px;
     padding-left: 150px;
         }
-p.first-try,virtualenv{
+p.first-try,p.virtualenv{
     border-style: solid;
     border-color: blue;
                 margin-top: 100px;
@@ -42,7 +42,20 @@ p.first-try,virtualenv{
     padding-bottom: 50px;
     padding-left: 150px;
         }
-p.structdefine,aboutcss{
+p.structdefine{
+    border-style: solid;
+    border-color: yellow;
+                margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: green;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+        }
+p.aboutcss{
     border-style: solid;
     border-color: yellow;
                 margin-top: 100px;
@@ -60,7 +73,12 @@ p.structdefine,aboutcss{
 <body>
 <p class='aboutcss'>
 div 标签是定义一个css格式化块 ,这样就可以采用在同一个Html文件里面对其进行格式化<br/>
-对css的理解为是对网页页面元素进行格式化，常见的有：页面的背景，字体的大小，图片的大小
+对css的理解为是对网页页面元素进行格式化，常见的有：页面的背景，字体的大小，图片的大小<br/>
+如何使一张图片在网页中变圆，如果图片格式为等高等宽那么出现的就是圆形，否则将是椭圆<br/>
+    .img-circle {<br/>
+    border-radius: 50%;<br/>
+}<br/>
+    下面 只需要设置图片元素就行<br/>
 </p>
 <p class='virtualenv'>virtualenv 是python的包管理工具，常见的用法如下（以下是windows命令行环境）<br/>
    1.virtualenv yangming #新建一个虚拟环境，其实就是一个文件夹<br/>
@@ -261,13 +279,7 @@ func main() {<br/>
 
 
 
-<p class='rotated'>
-    如何使一张图片在网页中变圆，如果图片格式为等高等宽那么出现的就是圆形，否则将是椭圆<br/>
-    .img-circle {<br/>
-    border-radius: 50%;<br/>
-}<br/>
-    下面 只需要设置图片元素就行<br/>
-</p>
+
 <p>
 
 
