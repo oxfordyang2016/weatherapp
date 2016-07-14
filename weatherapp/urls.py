@@ -21,5 +21,7 @@ urlpatterns = [
     url(r'^$',station.views.home ,name='home'),
     url(r'^server/$',station.views.server,name='server'),
     url(r'^git/$',station.views.git,name='git'),
-    url(r'^test/$',station.views.test,name='test')
-]
+    url(r'^test/$',station.views.test,name='test'),
+	url(r'^go/$',station.views.go ,name='go')
+   
+	]

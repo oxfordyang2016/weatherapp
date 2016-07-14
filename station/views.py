@@ -40,6 +40,12 @@ def git(request):
     global  i
     i= i+ 1
     return render_to_response(('git.html',{}))
+	
+def go(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('gostruct.html',{}))
+	
 
 def test(request):
     global i
