@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^server/$',station.views.server,name='server'),
     url(r'^git/$',station.views.git,name='git'),
     url(r'^test/$',station.views.test,name='test'),
-	url(r'^go/$',station.views.go ,name='go')
+	url(r'^go/$',station.views.go ,name='go'),
+	url(r'^django/$',station,views .django,name='django')
    
 	]

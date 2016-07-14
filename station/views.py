@@ -45,6 +45,11 @@ def go(request):
     global  i
     i= i+ 1
     return render_to_response(('gostruct.html',{}))
+
+def go(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('django.html',{}))	
 	
 
 def test(request):
