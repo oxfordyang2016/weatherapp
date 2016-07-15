@@ -51,6 +51,11 @@ def django(request):
     i= i+ 1
     return render_to_response(('django.html',{}))	
 	
+def version(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('version.html',{}))	
+	
 
 def test(request):
     global i
