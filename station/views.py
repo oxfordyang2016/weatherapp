@@ -55,6 +55,10 @@ def version(request):
     global  i
     i= i+ 1
     return render_to_response(('version.html',{}))	
+def gopackage(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('gopackage.html',{}))		
 	
 
 def test(request):

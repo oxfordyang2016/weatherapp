@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>yangming's git</title>
+    <style>
+        div{
+    border-style: solid;
+    border-color: yellow;
+                margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+        }
+        body{
+            background-color: #5f796b;
+        }
+        p{
+            font-family: Calibri;
+    font-size: 20px;
+
+}
+    </style>
+</head>
+<body>
+<div class="git">
+<p>
+<p class="yourfirstackagegoprogram">
+<br/>
+1.if you are in GOPATH,cd src or do it!<br/>
+2.create  a dir,edit yor first go file <br/>
+     md yangming--->cd yangming--->vim test0.go(command flows)<br/>
+	 package main<br/>
+	 import (<br/>
+	 "fmt"<br/>
+     "wangyan"<br/>
+	 "wangyan1"<br/>
+     )<br/>
+     func main(){<br/>
+	 fmt.Println("i love go")<br/>
+	 fmt.Println(wangyan.K)<br/>
+	 fmt.Println(wangyan.Do())<br/>
+	 <br/>
+	 <br/>
+	 <br/>
+	 }<br/>
+	 <br/>
+	 <br/>
+3.in src dir ,make another dir:md wangyan---->cd wangyan--->vim wangyan.go<br/>
+   package wangyan<br/>
+   var K=45<br/>
+   func ha() int{<br/>
+<br/>
+   return  K} 	 <br/>
+4.in wangyan dir .create another file --->vim wangyan1.go<br/>
+  package wangyan<br/>
+  import "fmt"<br/>
+<br/>
+  var U=446<br/>
+  func Do() int{<br/>
+<br/>
+  fmt.Println("i lobe yhe world,come from wangyan.go=======>",K)<br/>
+  return (U)<br/>
+  }<br/>
+<br/>
+5.compile these files<br/>
+  go build (in wangyan dir ,all go!go build wangyan.go go buid wangyan1.go)<br/>
+  go buid  test0.go (or go buid in yangming dir)<br/>
+  <br/>
+6.go run test0.go  <br/>
+  <br/>
+	 <br/>
+</p>	 
+</p>
+</div>
+</body>
+</html>

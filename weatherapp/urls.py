@@ -24,6 +24,8 @@ urlpatterns = [
     url(r'^test/$',station.views.test,name='test'),
 	url(r'^go/$',station.views.go ,name='go'),
 	url(r'^django/$',station.views.django,name='django'),
-	url(r'^version/$',station.views.version,name='version')
+	url(r'^version/$',station.views.version,name='version'),
+	url(r'^python/$',station.views.python,name='python'),
+	url(r'^gopackage/$',station.views.gopackage,name='gopackage')
    
 	]
