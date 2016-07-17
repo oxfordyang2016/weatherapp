@@ -26,5 +26,5 @@ urlpatterns = [
 	url(r'^django/$',station.views.django,name='django'),
 	url(r'^version/$',station.views.version,name='version'),
 	url(r'^gopackage/$',station.views.gopackage,name='gopackage')
-   
+    url(r'^dream/$',station.views.dream,name='dream')
 	]
