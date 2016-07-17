@@ -61,7 +61,7 @@ def gopackage(request):
     return render_to_response(('gopackage.html',{}))		
 	
 
-def dream(request):
+def fiveyearplan(request):
     global  i
     i= i+ 1
     return render_to_response(('fiveyearplan.html',{}))		
