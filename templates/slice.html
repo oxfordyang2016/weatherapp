@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>go return slice and function</title>
+    <style>
+        div{
+    border-style: solid;
+    border-color: yellow;
+                margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+        }
+        body{
+            background-color: #5f796b;
+        }
+        p{
+            font-family: Calibri;
+    font-size: 20px;
+
+}
+    </style>
+</head>
+<body>
+<div class="git">
+<p>
+<p class="yourfirstackagegoprogram">
+<br/>
+//package convert<br/>
+package main<br/>
+import (<br/>
+"encoding/json"<br/>
+"fmt"<br/>
+)<br/>
+type Result struct {<br/>
+Cmd string `json:"cmd"`<br/>
+Type string `json:"type"`<br/>
+Seq string `json:"seq"`<br/>
+Rsp struct {<br/>
+Code int `json:"code"`<br/>
+Reason string `json:"reason"`<br/>
+Body struct {<br/>
+Token string `json:"token"`<br/>
+AliveInterval int `json:"alive_interval"`<br/>
+} `json:"body"`<br/>
+} `json:"rsp"`<br/>
+}<br/>
+<br/>
+//test finish1<br/>
+type Base struct {<br/>
+	From  string `json:"from"`<br/>
+	Cmd   string `json:"cmd"`<br/>
+	Type  string `json:"type"`<br/>
+	Seq   uint32 `json:"seq"`<br/>
+	Token string `json:"token,omitempty"`<br/>
+    Yangming string `json':"yangming"`   <br/>
+}<br/>
+<br/>
+<br/>
+type Message struct {<br/>
+	Base<br/>
+	Req *Request  `json:"req,omitempty"`<br/>
+	Rsp *Response `json:"rsp,omitempty"`<br/>
+}<br/>
+<br/>
+<br/>
+//<br/>
+type TransferNotify struct {<br/>
+	TaskStateList []TaskState `json:"task_list"`<br/>
+}<br/>
+<br/>
+<br/>
+type Request struct {<br/>
+	Register       *RegisterReq       `json:"register,omitempty"`<br/>
+	Login          *LoginReq          `json:"login,omitempty"`<br/>
+	Keepalive      *KeepaliveReq      `json:"keepalive,omitempty"`<br/>
+	UploadTask     *UploadTaskReq     `json:"uploadtask,omitempty"`<br/>
+	DownloadTask   *DownloadTaskReq   `json:"downloadtask,omitempty"`<br/>
+//	TransferNotify *TransferNotifyReq `json:"transfernotify,omitempty"`<br/>
+}<br/>
+type Response struct {<br/>
+	Code         int              `json:"code"`<br/>
+	Reason       string           `json:"reason"`<br/>
+	Register     *RegisterRsp     `json:"register,omitempty"`<br/>
+	Login        *LoginRsp        `json:"login,omitempty"`<br/>
+	Keepalive    *KeepaliveRsp    `json:"keepalive,omitempty"`<br/>
+	UploadTask   *UploadTaskRsp   `json:"uploadtask,omitempty"`<br/>
+	DownloadTask *DownloadTaskRsp `json:"downloadtask,omitempty"`<br/>
+}<br/>
+type RegisterReq struct {<br/>
+	MachineCode string `json:"machine_code"`<br/>
+}<br/>
+type RegisterRsp struct {<br/>
+	Tnid string `json:"tnid"`<br/>
+}<br/>
+type LoginReq struct {<br/>
+	Version           string        `json:"version"`<br/>
+	NetAddr           string        `json:"net_addr"`<br/>
+	OS                string        `json:"os"`<br/>
+	NetSpeed          uint32        `json:"net_speed"`<br/>
+	Storage           []StorageInfo `json:"storage"`<br/>
+	TotalStorage      uint64        `json:"total_storage"`<br/>
+	FreeStorage       uint64        `json:"free_storage"`<br/>
+	CpuUsage          uint32        `json:"cpu_usage"`<br/>
+	TotalMem          uint64        `json:"total_mem"`<br/>
+	FreeMem           uint64        `json:"free_mem"`<br/>
+	UploadBandwidth   uint64        `json:"upload_bandwidth"`<br/>
+	DownloadBandwidth uint64        `json:"download_bandwidth"`<br/>
+}<br/>
+type StorageInfo struct {<br/>
+	Name string `json:"name"`<br/>
+	Type string `json:"type"`<br/>
+	Net  string `json:"net,omitempty"`<br/>
+}<br/>
+type LoginRsp struct {<br/>
+	Token                  string `json:"token"`<br/>
+	ZoneId                 string `json:"zone_id,omitempty"`<br/>
+	AliveInterval          uint32 `json:"alive_interval"`<br/>
+	TransferNotifyInterval uint32 `json:"transfer_notify_interval"`<br/>
+	Time                   string `json:"time,omitempty"`<br/>
+	Version                string `json:"version,omitempty"`<br/>
+}<br/>
+type KeepaliveReq struct {<br/>
+	CpuUsage          uint32 `json:"cpu_usage"`<br/>
+	TotalStorage      uint64 `json:"total_storage"`<br/>
+	FreeStorage       uint64 `json:"free_storage"`<br/>
+	TotalMem          uint64 `json:"total_mem"`<br/>
+	FreeMem           uint64 `json:"free_mem"`<br/>
+	UploadBandwidth   uint64 `json:"upload_bandwidth"`<br/>
+	DownloadBandwidth uint64 `json:"download_bandwidth"`<br/>
+}<br/>
+type KeepaliveRsp struct {<br/>
+	Token string `json:"token,omitempty"`<br/>
+	Time  string `json:"time,omitempty"`<br/>
+}<br/>
+type UploadTaskReq struct {<br/>
+	TaskId  string   `json:"task_id"`<br/>
+	Uid     string   `json:"uid"`<br/>
+	Fid     string   `json:"fid"`<br/>
+	SidList []string `json:"sid_list"`<br/>
+}<br/>
+type UploadTaskRsp struct {<br/>
+	SidList         []string `json:"sid_list"`<br/>
+	SidStorage      []string `json:"sid_sorage"`<br/>
+	Port            uint32   `json:"port"`<br/>
+	RecomendBitrate uint32   `json:"recomend_bitrate"`<br/>
+}<br/>
+type DownloadTaskReq struct {<br/>
+	TaskId     string   `json:"task_id"`<br/>
+	Uid        string   `json:"uid"`<br/>
+	Fid        string   `json:"fid"`<br/>
+	SidList    []string `json:"sid_list"`<br/>
+	SidStorage []string `json:"sid_storage"`<br/>
+	MaxBitrate uint32   `json:"max_bitrate,omitempty"`<br/>
+}<br/>
+type DownloadTaskRsp struct {<br/>
+	SidList         []string `json:"sid_list"`<br/>
+	Port            uint32   `json:"port"`<br/>
+	RecomendBitrate uint32   `json:"recomend_bitrate"`<br/>
+}<br/>
+type TaskState struct {<br/>
+	TaskId     string `json:"task_id"`<br/>
+	State      string `json:"state"`<br/>
+	TotalBytes uint64 `json:"total_bytes"`<br/>
+	Bitrate    uint64 `json:"bitrate"`<br/>
+}<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+func main() {<br/>
+// This JSON contains an int array.<br/>
+//text1 := `{ "cmd": "Login", "type": "rsp", "seq": "1", "rsp": { "code": 0, "reason": "OK", "body": { "token": "EF02JLGFA09GVNG21F", "alive_interval": 100 } } }`<br/>
+text := `{ "from":"a", "cmd": "Login", "type": "rsp", "seq": 4294967295,  "token": "EF02JLGFA09GVNG21F" ,"yangming":890}`<br/>
+bytes := []byte(text)<br/>
+// Unmarshal JSON to Result struct.<br/>
+var result Result<br/>
+json.Unmarshal(bytes, &result)<br/>
+// Our int array is filled.<br/>
+fmt.Printf("type = %s\n", result.Type)<br/>
+fmt.Println()<br/>
+fmt.Printf(" cmd info is %s\n", result.Cmd)<br/>
+fmt.Printf("stringexp is here %s\n", result.Rsp.Reason)<br/>
+fmt.Printf("structtestis herr ,note caption %d\n", result.Rsp.Body.Token)<br/>
+fmt.Println()<br/>
+fmt.Println(Convert(text))<br/>
+}<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+//return slices<br/>
+func Convert(text string) []string{	<br/>
+// This JSON contains an int array.<br/>
+var result Message<br/>
+bytes := []byte(text)<br/>
+// Unmarshal JSON to Result struct.<br/>
+json.Unmarshal(bytes, &result)<br/>
+s:=make([]string,5)<br/>
+s[0]=result.Cmd<br/>
+s[1]=result.Type<br/>
+s[2]=result.Token<br/>
+s[3]=result.From<br/>
+//s[4]=result.Seq<br/>
+s[4]="i love "<br/>
+return []string{s[4], s[0], s[1],s[2],s[3]}<br/>
+<br/>
+}<br/>
+<br/>
+</p>	 
+</p>
+</div>
+</body>
+</html>

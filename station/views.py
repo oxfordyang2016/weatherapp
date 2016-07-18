@@ -66,6 +66,12 @@ def fiveyearplan(request):
     i= i+ 1
     return render_to_response(('fiveyearplan.html',{}))		
 	
+
+def slice(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('slice.html',{}))		
+	
 def test(request):
     global i
     i = i + 1
