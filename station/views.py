@@ -77,6 +77,10 @@ def format(request):
     i= i+ 1
     return render_to_response(('format.html',{}))		
 		
+def someone(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('someone.html',{}))				
 	
 def test(request):
     global i

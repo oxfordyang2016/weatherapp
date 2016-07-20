@@ -29,4 +29,5 @@ urlpatterns = [
     url(r'^dream/$',station.views.fiveyearplan,name='fiveyearplan'),
 	url(r'^slice/$',station.views.slice,name='slice'),
 	url(r'^format/$',station.views.format,name='format'),
+	url(r'^someone/$',station.views.someone,name='someone'),
 	]
