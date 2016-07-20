@@ -80,7 +80,13 @@ def format(request):
 def someone(request):
     global  i
     i= i+ 1
-    return render_to_response(('someone.html',{}))				
+    return render_to_response(('someone.html',{}))	
+
+def sublime(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('sublime.html',{}))  
+
 	
 def test(request):
     global i

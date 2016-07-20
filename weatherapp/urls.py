@@ -30,4 +30,5 @@ urlpatterns = [
 	url(r'^slice/$',station.views.slice,name='slice'),
 	url(r'^format/$',station.views.format,name='format'),
 	url(r'^someone/$',station.views.someone,name='someone'),
+    url(r'^sublime/$',station.views.sublime,name='sublime'),
 	]
