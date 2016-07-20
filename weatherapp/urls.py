@@ -28,4 +28,5 @@ urlpatterns = [
 	url(r'^gopackage/$',station.views.gopackage,name='gopackage'),
     url(r'^dream/$',station.views.fiveyearplan,name='fiveyearplan'),
 	url(r'^slice/$',station.views.slice,name='slice'),
+	url(r'^format/$',station.views.format,name='format'),
 	]

@@ -71,6 +71,12 @@ def slice(request):
     global  i
     i= i+ 1
     return render_to_response(('slice.html',{}))		
+
+def format(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('format.html',{}))		
+		
 	
 def test(request):
     global i
