@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>yangming's json</title>
+    <style>
+        div{
+    border-style: solid;
+    border-color: yellow;
+                margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+        }
+        body{
+            background-color: #5f796b;
+        }
+        p{
+            font-family: Calibri;
+    font-size: 20px;
+
+}
+color:red}
+.important{
+    </style>
+</head>
+<body>
+<div class="git">
+<p>
+<p class="yourfirstackagegoprogram">
+<br/>
+<p class="important">note:"go build" complie a file(if your code's logic is error will notify error),"go run" complie and run</p><br/> 
+package main<br/>
+<br/>
+import (<br/>
+	"encoding/json"<br/>
+	//	"os"<br/>
+	//"time"<br/>
+	"fmt"<br/>
+)<br/>
+<br/>
+//test finish1<br/>
+type Base struct {<br/>
+	From string `json:"from"`<br/>
+}<br/>
+type Request struct {<br/>
+	Cmd string `json:"cmd"`<br/>
+}<br/>
+type Response struct {<br/>
+	Cmd string `json:"cmd"`<br/>
+	Ko  *DownloadTaskRsp<br/>
+}<br/>
+type DownloadTaskRsp struct {<br/>
+	Dot string<br/>
+}<br/>
+<br/>
+type MyUser struct {<br/>
+	Base<br/>
+	ID  int64    `json:"id"`<br/>
+	Req *Request `json:"req,omitempty"`<br/>
+	Rsp *Response<br/>
+	//	Rsp *Response `json:"rsp,omitempty"`<br/>
+}<br/>
+<br/>
+var k2 = MyUser{Base{"kksk"}, 1, &Request{"req"}, &Response{"kap", &DownloadTaskRsp{"yangming"}}}<br/>
+<br/>
+func main() {<br/>
+	//_ = json.NewEncoder(os.Stdout).Encode(<br/>
+	//	&MyUser{Base{"kksk"}, 1, &Request{"req"}, &Response{}})<br/>
+<br/>
+	k3, _ := json.Marshal(&k2)<br/>
+	fmt.Println(string(k3))<br/>
+	//fmt.Println(Change(&k2))<br/>
+	Change(&k2)<br/>
+}<br/>
+<br/>
+func Change(p *MyUser) {<br/>
+	//_ = json.NewEncoder(os.Stdout).Encode(<br/>
+	//	&MyUser{Base{"kksk"}, 1, &Request{"req"}, &Response{}})<br/>
+<br/>
+	k3, _ := json.Marshal(p)<br/>
+	fmt.Println(string(k3))<br/>
+	//fmt.Println(Change(&k2))<br/>
+	//Change1(&k2)<br/>
+}<br/>
+<br/>
+</p>	 
+</p>
+</div>
+</body>
+</html>
