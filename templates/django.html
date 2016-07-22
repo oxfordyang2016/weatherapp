@@ -284,6 +284,8 @@ body .il { color: #666666 }                     /* Literal.Number.Integer.Long *
         <li><a href="methods">安全</a></li>
       
         <li><a href="interfaces">部署django</a></li>
+        <li><a href="http://stackoverflow.com/questions/17820776/django-disqus-disqus-comment-box-on">Disqus评论系统1</a></li>
+         <li><a href="http://stackoverflow.com/questions/34535280/installing-disqus-on-django">Disqus评论系统2(安装问题解决方案)</a></li>
       
       <!-- <li><a href="errors">Errors</a></li>
       
@@ -376,8 +378,12 @@ body .il { color: #666666 }                     /* Literal.Number.Integer.Long *
         <li><a href="exit">Exit</a></li>
       -->
       </ul>
+
       <p class="footer">
         by <a href="https://twitter.com/mmcgrana">@mmcgrana</a> | <a href="mailto:mmcgrana@gmail.com">feedback</a> | <a href="https://github.com/mmcgrana/gobyexample">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        {% load disqus_tags %}
+{% disqus_show_comments "yangmingweatherappherokuappcom" %}
+{% set_disqus_url object.get_absolute_url %}
       </p>
     </div>
   </body>
