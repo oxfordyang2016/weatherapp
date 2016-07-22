@@ -1,7 +1,4 @@
 
-{% load disqus_tags %}
-{% disqus_show_comments "yangmingweatherappherokuappcom" %}
-{% set_disqus_url object.get_absolute_url %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -407,6 +404,10 @@ color:red
         by <a>yangming</a> | <a href="yang756260386@gmail.com">feedback</a> | <a href="https://github.com/oxfordyang2016/">source</a> | <a href="https://yangmingweatherapp.herokuapp.com">page</a>
       </p>
     </div>
+    
+{% load disqus_tags %}
+{% disqus_show_comments "yangmingweatherappherokuappcom" %}
+{% set_disqus_url object.get_absolute_url %}
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
