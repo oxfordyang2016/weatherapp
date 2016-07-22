@@ -28,9 +28,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['yangmingweatherapp.heroku.com']
 
-DISQUS_API_KEY ='I0lvz71s7RnTDUlA85xezu1TrwqmhEN6YUfWypYIGPVDbCBQKwRf2jVJn9hGhrV2'
-DISQUS_WEBSITE_SHORTNAME = 'yangmingweatherappherokuappcom'
-# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -134,4 +131,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_STORAGE='whitenoise.django.GzipManifestStaticFilesStorage'
 STATIC_ROOT =os.path.join(BASE_DIR,'static')
+DISQUS_API_KEY ='I0lvz71s7RnTDUlA85xezu1TrwqmhEN6YUfWypYIGPVDbCBQKwRf2jVJn9hGhrV2'
+DISQUS_WEBSITE_SHORTNAME = 'yangmingweatherappherokuappcom'
+# Application definition
 
