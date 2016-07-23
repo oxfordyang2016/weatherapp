@@ -77,7 +77,7 @@ def format(request):
     i= i+ 1
     return render_to_response(('format.html',{}))		
 		
-def imagelayout(request):
+def htmllayoutexp(request):
     global  i
     i= i+ 1
     return render_to_response(('htmllayoutexp.html',{}))	
