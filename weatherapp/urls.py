@@ -32,5 +32,7 @@ urlpatterns = [
 	url(r'^someone/$',station.views.someone,name='someone'),
     url(r'^sublime/$',station.views.sublime,name='sublime'),
 	 url(r'^struct2json/$',station.views.struct2json,name='struct2json'),
+     #front web design
       url(r'^front/$',station.views.front,name='front'),
+      url(r'^front/$',station.views.imagelayout,name='imagelayout'),
 	]

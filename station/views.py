@@ -77,10 +77,15 @@ def format(request):
     i= i+ 1
     return render_to_response(('format.html',{}))		
 		
+def imagelayout(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('htmllayoutexp.html',{}))	
+
 def someone(request):
     global  i
     i= i+ 1
-    return render_to_response(('someone.html',{}))	
+    return render_to_response(('someone.html',{}))  
 
 def struct2json(request):
     global  i
