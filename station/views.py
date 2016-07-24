@@ -87,6 +87,14 @@ def imagelayout(request):
     i= i+ 1
     return render_to_response(('imagelayout.html',{}))    
 
+
+
+# About GOLANG
+def pointerbasic(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('pointerbasic.html',{}))        
+
 def image(request):
     global  i
     i= i+ 1
