@@ -85,9 +85,12 @@ def htmllayoutexp(request):
 def imagelayout(request):
     global  i
     i= i+ 1
-    return render_to_response(('imagelayout',{}))    
+    return render_to_response(('imagelayout.html',{}))    
 
-
+def image(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('image.html',{}))    
 def someone(request):
     global  i
     i= i+ 1
