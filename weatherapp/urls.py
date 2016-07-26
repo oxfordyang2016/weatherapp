@@ -36,4 +36,6 @@ urlpatterns = [
     url(r'^front/$',station.views.front,name='front'),
     url(r'^imagelayout/$',station.views.imagelayout,name='imagelayout'),
     url(r'^pointerbasic/$',station.views.pointerbasic,name='pointerbasic'),
+    #yangming's now
+    url(r'^dream2016/$',station.views.dream2016,name='dream2016'),
 	]

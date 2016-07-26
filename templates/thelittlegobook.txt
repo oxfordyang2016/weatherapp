@@ -114,7 +114,168 @@ Chapter 4
 
     4.While developing, you can use either go run or go build. When you deploy your code however, you’ll want to deploy
      a binary via go build and execute that. 
+   
+   	5.ABOUT MAIN 
+   	  Hopefully, the code that we just executed is understandable. We’ve created a function and printed out a string with
+      the built-in println function. Did go run know what to execute because there was only a single choice? No. In Go,
+      the entry point to a program has to be a function called main within a package main.
+      If you want, you can alter the code and change the package name. Run the code via go run and you should get
+      an error. Then, change the name back to main but use a different function name. You should see a different error
+      message. Try making those same changes but use go build instead. Notice that the code compiles, there’s just no
+      entry point to run it. This is perfectly normal when you are, for example, building a library
+   
+    6.About Import
+      Go has a number of built-in functions, such as println, which can be used without reference. We can’t get very far
+      though, without making use of Go’s standard library and eventually using third-party libraries. In Go, the import
+      keyword is used to declare the packages that are used by the code in the file.Let’s change our program:
+      Let’s change our program:
+     
+     package main
+     import (
+     "fmt"
+     "os"
+     )
+     func main() {
+     if len(os.Args) != 2 {
+     os.Exit(1)
+     }
+     fmt.Println("It's over", os.Args[1])
+     }
+     Which you can run via:
+     go run main.go 9000
+    
+     We’re now using two of Go’s standard packages: fmt and os. We’ve also introduced another built-in function len.  
+     len returns the size of a string, or the number of values in a dictionary, or, as we see here, the number of elements
+     in an array. If you’re wondering why we expect 2 arguments, it’s because the first argument – at index 0 – is always
+     the path of the currently running executable. (Change the program to print it out and see for yourself.)
 
-  
+     #You’ve probably noticed we prefix the function name with the package, e.g., fmt.Println. 
+
+     #Go is strict about importing packages. It will not compile if you import a package but don’t use it.
+      Go is strict about this because unused imports can slowcompilation; 
+      admittedly a problem most of us don’t have to this degree
+
+      package main
+     import (
+     "fmt"
+     "os"
+      )
+     func main() {
+     }
+
+     You should get two errors about fmt and os being imported and not used. Can this get annoying? Absolutely. Over
+     time, you’ll get used to it (it’ll still be annoying though).
+
+   7.how to get document
+   8.Variables and Declarations
+     It’d be nice to begin and end our look at variables by saying you declare
+      and assign to a variable by doing x = 4.Unfortunately, things are more complicated in Go. 
+     The most explicit way to deal with variable declaration and assignment in Go is also the most verbose:
+     package main
+    import ( 
+    "fmt"
+    )
+   func main() {
+   var power int
+   power = 9000
+   fmt.Printf("It's over %d\n", power)
+   }
+   Here, we declare a variable power of type int. By default, Go assigns a zero value to variables. Integers are assigned
+   0, booleans false, strings "" and so on. Next, we assign 9000 to our power variable. We can merge the first two
+   lines:var power int = 9000,Still, that’s a lot of typing. Go has a handy short variable declaration operator, 
+   :=, which can infer the type:power := 9000,This is handy, and it works just as well with functions:
+   func main() {
+   power := getPower()
+   }
+   func getPower() int {
+   return 9001
+   }
+   It’s important that you remember that := is used to declare the variable as well as assign a value to it. Why? Because
+   a variable can’t be declared twice (not in the same scope anyway). If you try to run the following, you’ll get an error.
+   func main() {
+   power := 9000
+   fmt.Printf("It's over %d\n", power)
+   // COMPILER ERROR:
+   // no new variables on left side of :=
+   power := 9001
+   fmt.Printf("It's also over %d\n", power)
+   }
+   The compiler will complain with no new variables on left side of :=. This means that when we first declare a variable,
+		we use := but on subsequent assignment, we use the assignment operator =. This makes a lot of sense, but it can be
+		tricky for your muscle memory to remember when to switch between the two
+
+		If you read the error message closely, you’ll notice that variables is plural. That’s because Go lets you assign multiple
+		variables (using either = or :=):
+		func main() {
+		name, power := "Goku", 9000
+		fmt.Printf("%s's power is over %d\n", name, power)
+		}
+		As long as one of the variables is new, := can be used. Consider:
+		func main() {
+		power := 1000
+		fmt.Printf("default power is %d\n", power)
+		name, power := "Goku", 9000
+		fmt.Printf("%s's power is over %d\n", name, power)
+		}
+
+		Although power is being used twice with :=, the compiler won’t complain the second time we use it, it’ll see that the
+		other variable, name, is a new variable and allow :=. However, you can’t change the type of power. It was declared
+		(implicitly) as an integer and thus, can only be assigned integers.
+
+		For now, the last thing to know is that, like imports, Go won’t let you have unused variables. For example,
+		func main() {
+		name, power := "Goku", 1000
+		fmt.Printf("default power is %d\n", power)
+		}
+		won’t compile because name is declared but not used. Like unused imports it’ll cause some frustration, but overall I
+		think it helps with code cleanliness and readability.
+
+		There’s more to learn about declaration and assignments. For now, remember that you’ll use var NAME TYPE when
+		declaring a variable to its zero value, NAME := VALUE when declaring and assigning a value, and NAME = VALUE when
+		assigning to a previously declared variable
+
+
+  9.Function Declarations
+    This is a good time to point out that functions can return multiple values. 
+    Let’s look at three functions: one with no
+    return value, one with one return value, and one with two return values.
+       
+			    func log(message string) {
+			}
+			func add(a int, b int) int {
+			}
+			func power(name string) (int, bool) {
+			}
+		    We’d use the last one like so:
+		value, exists := power("goku")
+		if exists == false {
+		// handle this error case
+     }
+
+     Sometimes, you only care about one of the return values. In these cases, you assign the other values to _:
+     _, exists := power("goku")
+     if exists == false {
+     // handle this error case
+     }
+
+     This is more than a convention. _, the blank identifier, 
+     is special in that the return value isn’t actually assigned. This
+     lets you use _ over and over again regardless of the returned type.
+
+    Finally, there’s something else that you’re likely to run into with function declarations. If parameters share the same
+type, we can use a shorter syntax
+    func add(a, b int) int {
+}
+Being able to return multiple values is something you’ll use often. You’ll also frequently use _ to discard a value. Named
+return values and the slightly less verbose parameter declaration aren’t that common. Still, you’ll run into all of these
+sooner than later so it’s important to know about them.
+
+#about some dynamical and statical info
+If you’re coming from a dynamic language, the complexity around types and declarations might seem like a step
+backwards. I don’t disagree with you. For some systems, dynamic languages are categorically more productive.
+If you’re coming from a statically typed language, you’re probably feeling comfortable with Go. Inferred types and
+multiple return values are nice (though certainly not exclusive to Go). Hopefully as we learn more, you’ll appreciate
+the clean and terse syntax.
+
 
 
