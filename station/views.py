@@ -92,6 +92,11 @@ def imagelayout(request):
     return render_to_response(('imagelayout.html',{}))    
 
 
+# About Linux
+def linux(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('linux.html',{}))    
 
 # About GOLANG
 def pointerbasic(request):

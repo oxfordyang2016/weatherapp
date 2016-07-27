@@ -38,4 +38,6 @@ urlpatterns = [
     url(r'^pointerbasic/$',station.views.pointerbasic,name='pointerbasic'),
     #yangming's now
     url(r'^dream2016/$',station.views.dream2016,name='dream2016'),
+    #yangming's linux
+     url(r'^linux/$',station.views.linux,name='linux'),
 	]
