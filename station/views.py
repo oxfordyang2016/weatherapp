@@ -129,11 +129,17 @@ def sublime(request):
 
 
 #go network programming
-
 def gonetwork(request):
     global  i
     i= i+ 1
     return render_to_response(('gonetwork.html',{}))  
+
+
+#web map
+def webmap(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('webmap.html',{}))  
 
 
 	

@@ -20,18 +20,13 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$',station.views.home ,name='home'),
     url(r'^server/$',station.views.server,name='server'),
-    
     url(r'^test/$',station.views.test,name='test'),
-	
-	
-	url(r'^version/$',station.views.version,name='version'),
-	
-    
-	
+	url(r'^version/$',station.views.version,name='version'),	
 	url(r'^format/$',station.views.format,name='format'),
-	
     url(r'^sublime/$',station.views.sublime,name='sublime'),
 	url(r'^struct2json/$',station.views.struct2json,name='struct2json'),
+    #yangming's webmap
+    url(r'^webmap/$',station.views.webmap,name='webmap'), 
     #yangming's django
     url(r'^django/$',station.views.django,name='django'),
     #yangming's git
@@ -51,8 +46,8 @@ urlpatterns = [
     url(r'^gopackage/$',station.views.gopackage,name='gopackage'),
     url(r'^slice/$',station.views.slice,name='slice'),
 
+ 
 
-    
      #yangming's Network program with go
      url(r'^gonetwork/$',station.views.gonetwork,name='gonetwork'),
 
