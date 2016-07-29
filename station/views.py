@@ -127,6 +127,15 @@ def sublime(request):
     i= i+ 1
     return render_to_response(('sublime.html',{}))  
 
+
+#go network programming
+
+def gonetwork(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('gonetwork.html',{}))  
+
+
 	
 def test(request):
     global i
