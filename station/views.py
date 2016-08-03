@@ -117,10 +117,19 @@ def struct2json(request):
     global  i
     i= i+ 1
     return render_to_response(('struct2json.html',{}))		
+
+#yangming's front
 def front(request):
     global  i
     i= i+ 1
     return render_to_response(('front.html',{}))          
+
+def canvas(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('canvas.html',{})) 
+
+
 
 def sublime(request):
     global  i

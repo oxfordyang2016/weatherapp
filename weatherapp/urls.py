@@ -50,5 +50,7 @@ urlpatterns = [
 
      #yangming's Network program with go
      url(r'^gonetwork/$',station.views.gonetwork,name='gonetwork'),
+     #yangming's canvas
+     url(r'^canvas/$',station.views.canvas,name='canvas'),
 
 	]
