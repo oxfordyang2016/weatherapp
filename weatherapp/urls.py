@@ -52,5 +52,5 @@ urlpatterns = [
      url(r'^gonetwork/$',station.views.gonetwork,name='gonetwork'),
      #yangming's canvas
      url(r'^canvas/$',station.views.canvas,name='canvas'),
-
+      url(r'^serverdev/$',station.views.serverdevr,name='serverdev'),
 	]

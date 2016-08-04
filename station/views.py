@@ -85,11 +85,11 @@ def htmllayoutexp(request):
     global  i
     i= i+ 1
     return render_to_response(('htmllayoutexp.html',{}))	
-
-def imagelayout(request):
+ #about server
+def serverdev(request):
     global  i
     i= i+ 1
-    return render_to_response(('imagelayout.html',{}))    
+    return render_to_response(('server.html',{}))     
 
 
 # About Linux
@@ -130,6 +130,10 @@ def canvas(request):
     return render_to_response(('canvas.html',{})) 
 
 
+def imagelayout(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('imagelayout.html',{}))   
 
 def sublime(request):
     global  i
