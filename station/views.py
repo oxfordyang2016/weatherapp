@@ -59,7 +59,11 @@ def gopackage(request):
     global  i
     i= i+ 1
     return render_to_response(('gopackage.html',{}))		
-	
+#yangming 's dream	
+def fudan(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('fudan.html',{}))     
 
 def fiveyearplan(request):
     global  i
