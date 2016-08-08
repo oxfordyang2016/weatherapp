@@ -42,6 +42,7 @@ urlpatterns = [
     url(r'^fudan/$',station.views.fudan,name='fudan'),
     #yangming's linux
      url(r'^linux/$',station.views.linux,name='linux'),
+      url(r'^linuxcommand/$',station.views.linuxcommand,name='linuxcommand'),
      #yangming's go 
      url(r'^go/$',station.views.go ,name='go'),
     url(r'^gopackage/$',station.views.gopackage,name='gopackage'),

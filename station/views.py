@@ -102,6 +102,11 @@ def linux(request):
     i= i+ 1
     return render_to_response(('linux.html',{}))    
 
+def linuxcommand(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('linuxfrequentcommands.html',{}))    
+
 # About GOLANG
 def pointerbasic(request):
     global  i
