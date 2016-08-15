@@ -544,11 +544,71 @@ for index, value := range scores {
 }
 Arrays are efficient but rigid. We often don’t know the number of elements we’ll be dealing with upfront. For this, we
 turn to slices.
+============================================================================
+Chapter 8
+Chapter 5 - Tidbits
+In this chapter, we’ll talk about a miscellany of Go’s feature which didn’t quite fit anywhere else
 
   
 
+Error Handling
+Go’s preferred way to deal with errors is through return values, not exceptions. Consider the strconv.Atoi function
+which takes a string and tries to convert it to an integer:
+package main
+import (
+"fmt"
+"os"
+"strconv"
+)
+func main() {
+if len(os.Args) != 2 {
+os.Exit(1)
+}
+n, err := strconv.Atoi(os.Args[1])
+if err != nil {
+fmt.Println("not a valid number")
+} else {
+fmt.Println(n)
+}
+}
 
 
+You can create your own error type; the only requirement is that it fulfills the contract of the built-in error interface,
+which is:
+type error interface {
+Error() string
+}
+More commonly, we can create our own errors by importing the errors package and using it in the New function:
+import (
+"errors"
+)
+func process(count int) error {
+if count < 1 {
+return errors.New("Invalid count")
+}
+return nil
+}
+
+There’s a common pattern in Go’s standard library of using error variables. For example, the io package has an EOF
+variable which is defined as:
+var EOF = errors.New("EOF")
+This is a package variable (it’s defined outside of a function) which is publicly accessible (upper-case first letter). Various
+functions can return this error, say when we’re reading from a file or STDIN. If it makes contextual sense, you should
+use this error, too. As consumers, we can use this singleton:
+package main
+import (
+"fmt"
+"io"
+)
+func main() {
+var input int
+_, err := fmt.Scan(&input)
+if err == io.EOF {
+fmt.Println("no more input!")
+}
+}
+As a final note, Go does have panic and recover functions. panic is like throwing an exception while recover is
+like catch; they are rarely used.
 
 
 
