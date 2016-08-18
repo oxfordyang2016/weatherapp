@@ -26,7 +26,9 @@ urlpatterns = [
     url(r'^sublime/$',station.views.sublime,name='sublime'),
 	url(r'^struct2json/$',station.views.struct2json,name='struct2json'),
     #yangming's webmap
-    url(r'^webmap/$',station.views.webmap,name='webmap'), 
+    url(r'^webmap/$',station.views.webmap,name='webmap'),
+    #yangming's computer intro
+     url(r'^csintro/$',station.views.csintro,name='csintro'),
     #yangming's django
     url(r'^django/$',station.views.django,name='django'),
     #yangming's git

@@ -83,7 +83,11 @@ def slice(request):
 def format(request):
     global  i
     i= i+ 1
-    return render_to_response(('format.html',{}))		
+    return render_to_response(('format.html',{}))	
+def csintro(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('csintro.html',{}))     	
 		
 def htmllayoutexp(request):
     global  i
