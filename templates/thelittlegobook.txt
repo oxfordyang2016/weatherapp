@@ -632,6 +632,25 @@ If you try to run the above code, you’ll probably get an error (the file doesn
 works. Whatever you defer will be executed after the enclosing function (in this case main()) returns, even if it does
 so violently. This lets you release resources near where it’s initialized and takes care of multiple return points.
 
+Defer
+Even though Go has a garbage collector, some resources require that we explicitly release them. For example, we need
+to Close() files after we’re done with them. This sort of code is always dangerous. For one thing, as we’re writing
+a function, it’s easy to forget to Close something that we declared 10 lines up. For another, a function might have
+multiple return points. Go’s solution is the defer keyword:
+package main
+import (
+"fmt"
+"os"
+)
+func main() {
+file, err := os.Open("a_file_to_read")
+if err != nil {
+fmt.Println(err)
+return
+}
+defer file.Close()
+// read the file
+}
 
 
 
