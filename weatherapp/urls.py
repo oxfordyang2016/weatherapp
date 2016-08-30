@@ -50,7 +50,9 @@ urlpatterns = [
     url(r'^gopackage/$',station.views.gopackage,name='gopackage'),
     url(r'^slice/$',station.views.slice,name='slice'),
 
- 
+    #yangming's db 
+     url(r'^db/$',station.views.db ,name='db'),
+
 
      #yangming's Network program with go
      url(r'^gonetwork/$',station.views.gonetwork,name='gonetwork'),

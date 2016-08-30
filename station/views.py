@@ -168,6 +168,11 @@ def webmap(request):
     return render_to_response(('webmap.html',{}))  
 
 
+#db
+def db(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('db.html',{}))  
 	
 def test(request):
     global i
