@@ -173,7 +173,7 @@ def db(request):
     global  i
     i= i+ 1
     return render_to_response(('db.html',{}))  
-#db
+#ds
 def ds(request):
     global  i
     i= i+ 1
