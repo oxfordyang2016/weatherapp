@@ -652,6 +652,66 @@ defer file.Close()
 // read the file
 }
 
+Initialized If
+Go supports a slightly modified if-statement, one where a value can be initiated prior to the condition being evaluated:
+if x := 10; count > x {
+...
+}
+That’s a pretty silly example. More realistically, you might do something like:
+if err := process(); err != nil {
+return err
+}
+Interestingly, while the values aren’t available outside the if-statement, they are available inside any else if or else.
+
+
+
+
+
+
+
+Empty Interface and Conversions
+In most object-oriented languages, a built-in base class, often named object, is the superclass for all other classes.
+Go, having no inheritance, doesn’t have such a superclass. What it does have is an empty interface with no methods:
+interface{}. Since every type implements all 0 of the empty interface’s methods, and since interfaces are implicitly
+implemented, every type fulfills the contract of the empty interface.
+If we wanted to, we could write an add function with the following signature:
+func add(a interface{}, b interface{}) interface{} {
+...
+}
+To convert an interface variable to an explicit type, you use .(TYPE):
+return a.(int) + b.(int)
+Note that if the underlying type is not int, the above will result in an error.
+You also have access to a powerful type switch:
+switch a.(type) {
+case int:
+fmt.Printf("a is now an int and equals %d\n", a)
+case bool, string:
+// ...
+default:
+// ...
+}
+You’ll see and probably use the empty interface more than you might first expect. Admittedly, it won’t result in clean
+code. Converting values back and forth is ugly and dangerous but sometimes, in a static language, it’s the only choice
+
+
+
+
+Strings and Byte Arrays
+Strings and byte arrays are closely related. We can easily convert one to the other:
+stra := "the spice must flow"
+byts := []byte(stra)
+strb := string(byts)
+In fact, this way of converting is common across various types as well. Some functions explicitly expect an int32 or
+an int64 or their unsigned counterparts. You might find yourself having to do things like:
+int64(count)
+Still, when it comes to bytes and strings, it’s probably something you’ll end up doing often. Do note that when you use
+[]byte(X) or string(X), you’re creating a copy of the data. This is necessary because strings are immutable.
+Strings are made of runes which are unicode code points. If you take the length of a string, you might not get what
+you expect. The following prints 3:
+fmt.Println(len(""))
+If you iterate over a string using range, you’ll get runes, not bytes. Of course, when you turn a string into a []byte
+you’ll get the correct data.
+
 
 
 
