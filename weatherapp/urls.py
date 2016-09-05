@@ -52,6 +52,7 @@ urlpatterns = [
 
     #yangming's db 
      url(r'^db/$',station.views.db ,name='db'),
+     url(r'^sql/$',station.views.db ,name='sql'),
      #yangming's ds
      url(r'^ds/$',station.views.ds ,name='ds'), 
 
