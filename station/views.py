@@ -173,6 +173,11 @@ def db(request):
     global  i
     i= i+ 1
     return render_to_response(('db.html',{}))  
+
+def sql(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('sql.html',{}))      
 #ds
 def ds(request):
     global  i
