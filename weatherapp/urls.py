@@ -49,7 +49,7 @@ urlpatterns = [
      url(r'^go/$',station.views.go ,name='go'),
     url(r'^gopackage/$',station.views.gopackage,name='gopackage'),
     url(r'^slice/$',station.views.slice,name='slice'),
-
+    url(r'^gopaper/$',station.views.gopaper,name='gopaper'),
     #yangming's db 
      url(r'^db/$',station.views.db ,name='db'),
      url(r'^sql/$',station.views.db ,name='sql'),
