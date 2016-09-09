@@ -117,6 +117,13 @@ def pointerbasic(request):
     i= i+ 1
     return render_to_response(('pointerbasic.html',{}))        
 
+def gopaper(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('gopaper.html',{}))  
+
+
+
 def image(request):
     global  i
     i= i+ 1
