@@ -42,6 +42,7 @@ urlpatterns = [
     url(r'^someone/$',station.views.someone,name='someone'),
     url(r'^dream/$',station.views.fiveyearplan,name='fiveyearplan'),
     url(r'^fudan/$',station.views.fudan,name='fudan'),
+    url(r'^everyday/$',station.views.everyday,name='everyday'),
     #yangming's linux
      url(r'^linux/$',station.views.linux,name='linux'),
       url(r'^linuxcommand/$',station.views.linuxcommand,name='linuxcommand'),

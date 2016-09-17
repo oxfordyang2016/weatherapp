@@ -69,6 +69,10 @@ def fiveyearplan(request):
     global  i
     i= i+ 1
     return render_to_response(('fiveyearplan.html',{}))		
+def everyday(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('everyday.html',{}))         
 
 def dream2016(request):
     global  i
