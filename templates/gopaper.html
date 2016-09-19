@@ -35,9 +35,20 @@
         b:=json.marshal(&rsp)<br/>
         io.WS(string(b))<br/>
     }()#last bracket pass argvs of functon<br/>
-
-
-
+3.var TimeFunc = time.Now->donnot worry type<br/>
+4.func (m MapClaims) Valid() error->usage m.Valid(), m is a instance struct  *https://gobyexample.com/interfaces<br/>
+5.func jsonResponse(response interface{}, w http.ResponseWriter) {<br/>
+ 
+    json, err := json.Marshal(response)<br/>
+    if err != nil {<br/>
+        http.Error(w, err.Error(), http.StatusInternalServerError)<br/>
+        return<br/>
+    }
+ 
+    w.WriteHeader(http.StatusOK)<br/>
+    w.Header().Set("Content-Type", "application/json")<br/>
+    w.Write(json)<br/>
+}-----write to header<br/>
 <!--git command  flow<br/>
 1.install windows-git<br/>
 2.md gitflow (create a empty dir)<br/>
