@@ -29,7 +29,8 @@ urlpatterns = [
     url(r'^webmap/$',station.views.webmap,name='webmap'),
     #yangming's computer intro
      url(r'^csintro/$',station.views.csintro,name='csintro'),
-    #yangming's django
+    #yangming's python anddjango
+     url(r'^python/$',station.views.python,name='python'),
     url(r'^django/$',station.views.django,name='django'),
     #yangming's git
     url(r'^git/$',station.views.git,name='git'),
