@@ -200,6 +200,16 @@ def ds(request):
     global  i
     i= i+ 1
     return render_to_response(('ds.html',{})) 
+
+#swissstart
+def startswiss(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('startswiss.html',{})) 
+
+
+
+
 	
 def test(request):
     global i
