@@ -49,6 +49,30 @@
     w.Header().Set("Content-Type", "application/json")<br/>
     w.Write(json)<br/>
 }-----write to header<br/>
+<p>
+    6.greate interface
+func main() {
+    var k []interface{}//it is like list in python
+    s := make([]interface{}, 3)
+    s[0] = 5
+    s[1] = false
+    s[2] = "c"
+    k = append(k, s...)
+    fmt.Println(k)
+
+}
+
+
+
+</p>
+
+
+
+
+
+
+
+
 <!--git command  flow<br/>
 1.install windows-git<br/>
 2.md gitflow (create a empty dir)<br/>
