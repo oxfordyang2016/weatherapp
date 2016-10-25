@@ -34,6 +34,7 @@ urlpatterns = [
     url(r'^django/$',station.views.django,name='django'),
     #yangming's git
     url(r'^git/$',station.views.git,name='git'),
+    url(r'^gitsheet/$',station.views.gitsheet,name='gitsheet'),
      #front web design
     url(r'^front/$',station.views.front,name='front'),
     url(r'^imagelayout/$',station.views.imagelayout,name='imagelayout'),
