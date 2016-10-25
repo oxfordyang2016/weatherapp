@@ -39,7 +39,7 @@ def server(request):
 def gitrelease(request):
     global  i
     i= i+ 1
-    return render_to_response(('gitrelease.html',{}))
+    return render_to_response((' gitrelease.html ',{}))
 def gitsheet(request):
     global  i
     i= i+ 1
