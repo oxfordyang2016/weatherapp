@@ -59,6 +59,8 @@ urlpatterns = [
      url(r'^sql/$',station.views.db ,name='sql'),
      #yangming's ds
      url(r'^ds/$',station.views.ds ,name='ds'), 
+     #yangming's english
+     url(r'^english/$',station.views.english ,name='english'), 
 
      #yangming's Network program with go
      url(r'^gonetwork/$',station.views.gonetwork,name='gonetwork'),
