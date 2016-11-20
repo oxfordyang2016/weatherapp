@@ -96,7 +96,10 @@ def english(request):
     global  i
     i= i+ 1
     return render_to_response(('english.html',{}))        
-
+def psychology(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('psychology.html',{}))
 
 
 def format(request):
