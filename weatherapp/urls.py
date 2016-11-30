@@ -47,6 +47,7 @@ urlpatterns = [
     url(r'^everyday/$',station.views.everyday,name='everyday'),
     url(r'^startswiss/$',station.views.startswiss,name='startsiwss'),
     url(r'^psychology/$',station.views.psychology,name='psychology'),
+    url(r'^tech/$',station.views.tech,name='tech'),
     #yangming's linux
      url(r'^linux/$',station.views.linux,name='linux'),
       url(r'^linuxcommand/$',station.views.linuxcommand,name='linuxcommand'),

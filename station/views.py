@@ -100,7 +100,10 @@ def psychology(request):
     global  i
     i= i+ 1
     return render_to_response(('psychology.html',{}))
-
+def tech(request):
+    global  i
+    i= i+ 1
+    return render_to_response(('tech.html',{}))
 
 def format(request):
     global  i
