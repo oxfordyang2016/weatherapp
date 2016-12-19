@@ -14,7 +14,7 @@ def listfile(dirname):
             binfilelist.append(dirname+filename)
     return [sqlfilelist,binfilelist]
 #your path format is below
-getdirfilelist=listfile('/tmp/goodday/purebackdata/')
+#getdirfilelist=listfile('/tmp/goodday/purebackdata/')
 #print getdirfilelist[1]
 
 #----------------------load database increlog--------------------
@@ -50,31 +50,32 @@ def run():
 #---------------------outside api(more advanced )-------------------------------------------------------
 
 def mysql_load(dir,host,port,user,passwd):
-    dir_file_name=os.listdir(dir)
-    def con(filenamelist):
-        return dir+filenamelist
-    file_path_list=map(con,os.listdir(dir))
-    print file_path_list
-    def get_file_create_time(file):
-        return os.path.getctime(file)
-    file_create_time_list=map(get_file_create_time,file_path_list)
-    print "---------file path list-----"+str(file_path_list)
-    print "---------min time-------"+str(file_create_time_list)
-    sorted_time_filetime=min(file_create_time_list)
-    all_file_info={}
-    for file_path in file_path_list:
-        all_file_info[file_path]=os.path.getctime(file_path)
-    for key, value in all_file_info.iteritems():
-        if value==min(file_create_time_list):
-           if "bin" in key:
-               commandline='mysqlbinlog '+key+'| mysql -h '+str(host)+' --port '+str(port)+' -u '+str(user)+' -p'+str(passwd)
-               os.system(commandline)
-               os.remove(key)
-           elif "sql" in key:
-               commandline='mysql -h '+str(host)+' --port '+str(port)+ ' -u '+str(user)+' -p'+ str(passwd)+ ' < '+key
-               print(commandline)
-               os.system(commandline)
-               os.remove(key)
+    while len(os.listdir(dir))!=0
+        dir_file_name=os.listdir(dir)
+        def con(filenamelist):
+            return dir+filenamelist
+        file_path_list=map(con,os.listdir(dir))
+        print file_path_list
+        def get_file_create_time(file):
+            return os.path.getctime(file)
+        file_create_time_list=map(get_file_create_time,file_path_list)
+        print "---------file path list-----"+str(file_path_list)
+        print "---------min time-------"+str(file_create_time_list)
+        sorted_time_filetime=min(file_create_time_list)
+        all_file_info={}
+        for file_path in file_path_list:
+            all_file_info[file_path]=os.path.getctime(file_path)
+        for key, value in all_file_info.iteritems():
+            if value==min(file_create_time_list):
+               if "bin" in key:
+                   commandline='mysqlbinlog '+key+'| mysql -h '+str(host)+' --port '+str(port)+' -u '+str(user)+' -p'+str(passwd)
+                   os.system(commandline)
+                   os.remove(key)
+               elif "sql" in key:
+                   commandline='mysql -h '+str(host)+' --port '+str(port)+ ' -u '+str(user)+' -p'+ str(passwd)+ ' < '+key
+                   print(commandline)
+                   os.system(commandline)
+                   os.remove(key)
 
 
 
