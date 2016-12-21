@@ -152,21 +152,21 @@ Hash查找法,常见的Hash函数(直接定址法,随机数法),hash冲突的概
 BST树定义,性质,ADT及其实现,BST树查找,插入,删除算法;
 平衡树 (AVL) 的定义,性质,ADT及其实现,平衡树查找,插入算法,平衡因子的概念;
 优先队列与堆,堆的定义,堆的生成,调整算法;范围查询;
-四、Sort
-内容: 
+iv.Sort
 sort basic 
 Insert sort
 shell sort
 select sort
 quick sort
 merge sort
-基数排序等排序算法基本思想,算法代码及基本的时间复杂度分析
-五、Graph 
+radix sort 
+ideal,code and complixity
+V.Graph 
 Graph
 Graph storage structure
-    
-邻接表;
-图的遍历,广度度优先遍历和深度优先遍历;
+邻接表(Adjacency matrix)
+
+Graph iterate,bfs,dfs;
 最小生成树基本概念,
 Prim算法,
 Kruskal算法;
