@@ -76,6 +76,7 @@ def mysql_load(dir,host,port,user,passwd):
                    print(commandline)
                    os.system(commandline)
                    os.remove(key)
+            break       
 
 
 
@@ -86,3 +87,7 @@ if __name__ == "__main__":
 
     print "---------i am running load.py -time is --%s-----"%str( datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     run()
+
+
+
+#loaddb.mysql_load('/load/','localhost',3306,'root','yangmingtestmysql')    
