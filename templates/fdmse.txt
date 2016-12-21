@@ -164,10 +164,9 @@ ideal,code and complixity
 V.Graph 
 Graph
 Graph storage structure
-邻接表(Adjacency matrix)
-
+(Adjacency matrix/table)
 Graph iterate,bfs,dfs;
-最小生成树基本概念,
+最小生成树基本概念(Minimum spanning tree)
 Prim算法,
 Kruskal算法;
 最短路径问题,
