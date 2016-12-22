@@ -128,28 +128,31 @@ Part III datastructure and algorithm
 考试题型：QA、Analysis.PRogram
 (60)
 一、（Stack）、（Queue）和（Vector）
-内容:
-单链表,双向链表,环形链表,带哨兵节点的链表;
+Linked list
+double-oriented list
+cycle list
+list with pivot??????
+stack
+stack ADT
 栈的基本概念和性质,栈ADT及其顺序,链接实现;栈的应用;栈与递归;
 队列的基本概念和性质,队列ADT及其顺序,链接实现;队列的应用;
 向量基本概念和性质;向量ADT及其数组、链接实现;
 二、Tree
-内容: 
-树的基本概念和术语;
-树的前序,中序,后序,层次序遍历;
-二叉树及其性质;
-普通树与二叉树的转换;
+tree basic
+tree pre_oder dfs bfs in_order  post-order
+binary tree proterity
+normal tree---->binary tree????????????
 树的存储结构,标准形式;
 完全树(complete tree)的数组形式存储;
 树的应用,Huffman树的定义与应用;
 三、search
 内容: 
-查找的基本概念;
+search basic
 对线性关系结构的查找,
-顺序查找,(in-order search)
-二分查找;(binary search)
+in-order search 
+binary search 
 Hash查找法,常见的Hash函数(直接定址法,随机数法),hash冲突的概念, 解决冲突的方法(开散列方法/拉链法,闭散列方法/开址定址法),二次聚集现象;
-BST树定义,性质,ADT及其实现,BST树查找,插入,删除算法;
+BST definition,property,ADT,implemention,BST index(search) ,insert,delete
 平衡树 (AVL) 的定义,性质,ADT及其实现,平衡树查找,插入算法,平衡因子的概念;
 优先队列与堆,堆的定义,堆的生成,调整算法;范围查询;
 iv.Sort
@@ -166,11 +169,10 @@ Graph
 Graph storage structure
 (Adjacency matrix/table)
 Graph iterate,bfs,dfs;
-最小生成树基本概念(Minimum spanning tree)
-Prim算法,
-Kruskal算法;
-最短路径问题,
-广度优先遍历算法,
-Dijkstra算法,
-Floyd算法;
-拓扑排序。
+Minimum spanning tree
+Prim algorithm
+Kruskal algorithm
+Shortest problem
+Dijkstra algorithm
+Floyd algorithm
+topcal sort
