@@ -15,27 +15,27 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
-	          <canvas  id="myCanvas" width="1400" height="400"
-style="border:1px solid #000000;">
+	<canvas id="myCanvas" width="1400" height="700"
+style="border:2px solid #d3d3d3;">
+Your browser does not support the canvas element.
 </canvas>
+
 <script>
-var canvas = document.getElementById("myCanvas")
-var ctx = canvas.getContext("2d"); 
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "30px Arial ";
+ctx.font = "30px Comic Sans MS";
 ctx.fillStyle = "red";
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+ctx.textAlign = "center";
+ctx.fillText("yangming",600,50);
+ctx.beginPath();
+ctx.moveTo(660,660);
+ctx.lineTo(300,150);
+ctx.lineTo(390,150);
+ctx.lineTo(680,194);
+ctx.stroke();
+</script>
 
-async function demo() {
-  console.log('Taking a break...');
-  await sleep(20000);
-  console.log('Two second later');
-}
-
-for (i = 0; i < 100; i++) {
-     demo()    
-    ctx.fillRect(0,0,i*12,i*7);
-}
 </script>
 
 		<!-- Page Wrapper -->
