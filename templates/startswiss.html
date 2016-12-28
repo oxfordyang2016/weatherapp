@@ -21,19 +21,47 @@ Your browser does not support the canvas element.
 </canvas>
 
 <script>
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
+
+
+
+
+//setInterval(function(){ ctx.lineTo(100,699), 3000);
+
+function myFunction() {
+	var canvas = document.getElementById("myCanvas");
+	var ctx = canvas.getContext("2d");
 ctx.font = "30px Arial ";
 ctx.font = "30px Comic Sans MS";
 ctx.fillStyle = "red";
 ctx.textAlign = "center";
 ctx.fillText("yangming",600,50);
+//setInterval(function(){ alert("Hello"); }, 3000)
 ctx.beginPath();
 ctx.moveTo(660,660);
 ctx.lineTo(300,150);
 ctx.lineTo(390,150);
-ctx.lineTo(680,194);
+ctx.lineTo(80,194);
+ctx.lineTo(680,567);
+    setInterval(function(){ctx.lineTo(50,7); }, 3000);
+}
+
+myFunction()
 ctx.stroke();
+</script>
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D94A38;width:1200px;height:2000px;padding:40px;">
+Mouse Over Me dir mouse kiv hsdisiiis</div>
+
+<script>
+function mOver(obj) {
+    obj.innerHTML = "Thank You sjhdjsjjsdjjfjsdjfsd"
+}
+
+function mOut(obj) {
+    obj.innerHTML = "Mouse Over Me shkjdsjkdkldkdlldfdfjj"
+}
+</script>
 </script>
 
 </script>
@@ -68,7 +96,8 @@ ctx.stroke();
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"><span class="icon fa-diamond"></span></div>
-							<h2>星瑞教育 厚德载物</h2>
+							<h2 onclick="this.innerHTML='So beautifull'">星瑞教育 厚德载物</h2>
+							<h1 onclick="this.innerHTML='Ooops!'">Click on this text!</h1>
 							<p>Design by <a href="https://github.com/oxfordyang2016">yangming</a></p>
 						</div>
 					</section>
