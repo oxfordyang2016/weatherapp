@@ -272,10 +272,17 @@ $(document).ready(function(){
        $(".test").dblclick(function(){
         $(this).hide();
     });
+  $("#p1").mouseleave(function(){
+        alert("Bye! You now leave p1!");
+    });
+    $("input").focus(function(){
+        $(this).css("background-color", "red");
+    });
 
 });
 </script>
-
+Name: <input type="text" name="fullname"><br>
+Email: <input type="text" name="email">
 <p id="p1">Enter this paragraph.</p>
 <p>If you click on me, I will disappear.</p>
 <p>Click me away!</p>
