@@ -236,10 +236,10 @@ body .il { color: #666666 }                     /* Literal.Number.Integer.Long *
       </p>
 
       <ul>
-        <canvas  id="myCanvas" width="400" height="400"
+        <canvas  class='test' id="myCanvas" width="400" height="400"
 style="border:1px solid #000000;">
 </canvas>
-<script>
+<!---<script>
 var canvas = document.getElementById("myCanvas")
 var ctx = canvas.getContext("2d"); 
 ctx.fillStyle = "#FF0000";
@@ -249,7 +249,17 @@ for (i = 0; i < 100; i++) {
     ctx.fillRect(0,0,i*30,705);
 }
 </script>
+-->
+<script>
+<!--$(".test").hide()-->
+$(document).ready(function(){
+$(".test").hide();
+   // jQuery methods go here...
 
+}); 
+
+
+</script>
 
 
 
