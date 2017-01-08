@@ -253,19 +253,43 @@ for (i = 0; i < 100; i++) {
 <script>
 <!--$(".test").hide()-->
 $(document).ready(function(){
-$(".test").hide();
+$(".test").click(function(){$("li").hide()});
    // jQuery methods go here...
-
 }); 
 
 
 </script>
 
+<script>
+$(document).ready(function(){
+    $("#p1").mouseenter(function(){
+        alert("You entered p1!");
+
+    });
+    $("p").click(function(){
+        $(this).hide();
+    });
+       $(".test").dblclick(function(){
+        $(this).hide();
+    });
+
+});
+</script>
+
+<p id="p1">Enter this paragraph.</p>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+<p>If you double-click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+
 
 
 
         <div >
-        <li><a href=" http://stackoverflow.com/questions/14489016/how-to-properly-reference-local-resources-in-html">How to insert a image in html</a></li>
+        <li class='.test'><a href=" http://stackoverflow.com/questions/14489016/how-to-properly-reference-local-resources-in-html">How to insert a image in html</a></li>
         <li><a href=" https://yangmingweatherapp.herokuapp.com/imagelayout/">how to insert a image in html 2</a></li>
       <li><a href="http://www.w3schools.com/html/html_images.asp">Image layout</a></li>
        <li><a href="http://www.w3schools.com/css/css_syntax.asp">The method of Css format a tag </a></li>
@@ -294,7 +318,7 @@ $(".test").hide();
        <li><a href="http://www.w3schools.com/js/js_whereto.asp">JavaScript Where To</a></li>
        <li><a href="http://www.w3schools.com/js/js_output.asp">JavaScript How To display data</a></li>
        <li><a href="http://www.w3schools.com/jquery/jquery_intro.asp">Jquery intro</a></li>
-       <li><a href="http://www.w3schools.com/cssref/css_selectors.asp">css selector</a></li>
+       <li><a href="http://www.w3schools.com/cssref/css_selectors.asp">170108 css selector</a></li>
        <li><a href="http://www.w3schools.com/js/js_ajax_intro.asp">Ajax intro</a></li>
        <li><a href="https://www.sitepoint.com/ajax-jquery/">Easy Ajax with jQuery</a></li>
        <li><a href="https://www.sitepoint.com/ajax-jquery/">Easy Query quick start</a></li>
@@ -302,7 +326,7 @@ $(".test").hide();
         <li><a href="http://www.w3schools.com/js/js_comments.asp">js comment</a></li>
        <li><a href="https://webdesign.tutsplus.com/tutorials/a-beginners-guide-to-ajax-with-jquery--cms-25126">ajax with jquery</a></li>
       
-        <li><a href="http://www.w3schools.com/jquery/jquery_syntax.asp">Jquery syntax</a></li>
+        <li><a href="http://www.w3schools.com/jquery/jquery_syntax.asp">170108Jquery syntax</a></li>
       
         <li><a href="channel-buffering">Channel Buffering</a></li>
       
