@@ -272,15 +272,42 @@ $(document).ready(function(){
        $(".test").dblclick(function(){
         $(this).hide();
     });
+    $(".callback").mouseenter(function(){
+        $(".callback").hide("slow", function(){
+            alert("The paragraph is now hidden");
+        });
+    });
+
   $("#p1").mouseleave(function(){
         alert("Bye! You now leave p1!");
     });
     $("input").focus(function(){
         $(this).css("background-color", "red");
     });
+        $("input").blur(function(){
+        $(this).css("background-color", "#ffffff");
+    });
+        $(".on").on({
+        mouseenter: function(){
+            $(this).css("background-color", "lightgray");
+        },  
+        mouseleave: function(){
+            $(this).css("background-color", "lightblue");
+        }, 
+        click: function(){
+            $(this).css("background-color", "yellow");
+        }  
+    }); 
+       
+    $("#p2").click(function(){
+        $("#p2").css("color", "red").slideUp(9000).slideDown(6000);
+    });
+
+
 
 });
 </script>
+<p id="p2">jQuery is fun!!</p>
 Name: <input type="text" name="fullname"><br>
 Email: <input type="text" name="email">
 <p id="p1">Enter this paragraph.</p>
@@ -297,7 +324,7 @@ Email: <input type="text" name="email">
 
         <div >
         <li class='.test'><a href=" http://stackoverflow.com/questions/14489016/how-to-properly-reference-local-resources-in-html">How to insert a image in html</a></li>
-        <li><a href=" https://yangmingweatherapp.herokuapp.com/imagelayout/">how to insert a image in html 2</a></li>
+        <li><a class='on' href=" https://yangmingweatherapp.herokuapp.com/imagelayout/">how to insert a image in html 2</a></li>
       <li><a href="http://www.w3schools.com/html/html_images.asp">Image layout</a></li>
        <li><a href="http://www.w3schools.com/css/css_syntax.asp">The method of Css format a tag </a></li>
        <li><a href="http://www.w3schools.com/tags/canvas_lineto.asp">HTML canvas lineTo() line </a></li>
@@ -305,6 +332,8 @@ Email: <input type="text" name="email">
         <li><a href="http://www.w3schools.com/css/css_font.asp">Css Font</a></li>
       <li><a href="http://www.w3schools.com/html/html5_audio.asp">Hmtl audio</a></li>
        <li><a href="http://www.w3schools.com/js/js_htmldom_events.asp">JavaScript HTML DOM Events</a></li>
+       <li><a href="http://www.w3schools.com/jquery/jquery_events.asp">Jquery Events</a></li>
+        <li><a href="http://www.w3schools.com/jquery/jquery_callback.asp">Jquery callback</a></li>
       <li><a href="http://diveintohtml5.info/past.html">Hmtl dive</a></li>
       <li><a href="http://www.w3schools.com/graphics/canvas_drawing.asp">Hmtl canvas drawing</a></li>
        <li><a href="http://www.w3schools.com/js/js_loop_while.asp">js while</a></li>
@@ -319,7 +348,7 @@ Email: <input type="text" name="email">
 
 
 
-      <li><a href="http://codetheory.in/20-best-canvas-tutorials-and-examples-that-will-make-you-a-canvas-master/">canvas tutorial</a></li>
+      <li><a class='callback' href="http://codetheory.in/20-best-canvas-tutorials-and-examples-that-will-make-you-a-canvas-master/">canvas tutorial</a></li>
       <li><a href="https://www.techwalla.com/articles/what-does-javascript-do">what does javascript do_</a></li>
        <li><a href="http://www.w3schools.com/js/js_intro.asp">what does javascript do_</a></li>
        <li><a href="http://www.w3schools.com/js/js_whereto.asp">JavaScript Where To</a></li>
