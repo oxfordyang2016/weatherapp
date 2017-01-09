@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+     <script type="text/javascript" src="../static/js/jquery-3.1.1.min.js"></script>
+    <title>Yangming's Html and Css</title>
+    <style>
+	</style>
+  </head>
+
+
+  <body>
+    <div id="intro">
+      <h2><a href="./">yangming's HTML and CSS</a></h2>
+      <p>
+        <a href="">Html and  CSS</a> help you format you web
+      </p>
+
+      <ul>
+        <canvas  class='test' id="myCanvas" width="400" height="400"
+style="border:1px solid #000000;">
+</canvas>
+
+
+<script>
+$(document).ready(function(){
+    $("#p1").mouseenter(function(){
+        alert("You entered p1!");
+
+    });
+    $("p").click(function(){
+        $(this).hide();
+    });
+       $(".test").dblclick(function(){
+        $(this).hide();
+    });
+    $(".callback").mouseenter(function(){
+        $(".callback").hide("slow", function(){
+            alert("The paragraph is now hidden");
+        });
+    });
+
+  $("#p1").mouseleave(function(){
+        alert("Bye! You now leave p1!");
+    });
+    $("input").focus(function(){
+        $(this).css("background-color", "red");
+    });
+        $("input").blur(function(){
+        $(this).css("background-color", "#ffffff");
+    });
+        $(".on").on({
+        mouseenter: function(){
+            $(this).css("background-color", "lightgray");
+        },  
+        mouseleave: function(){
+            $(this).css("background-color", "lightblue");
+        }, 
+        click: function(){
+            $(this).css("background-color", "yellow");
+        }  
+    }); 
+       
+    $("#p2").click(function(){
+        $("#p2").css("color", "red").slideUp(9000).slideDown(6000);
+    });
+
+
+
+});
+</script>
+<p id="p2">jQuery is fun!!</p>
+Name: <input type="text" name="fullname"><br>
+Email: <input type="text" name="email">
+<p id="p1">Enter this paragraph.</p>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+<p>If you double-click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+
+
+
+
+        <div >
+        <li class='.test'><a href=" http://stackoverflow.com/questions/14489016/how-to-properly-reference-local-resources-in-html">How to insert a image in html</a></li>
+        <li><a class='on' href=" https://yangmingweatherapp.herokuapp.com/imagelayout/">how to insert a image in html 2</a></li>
+      <li><a href="http://www.w3schools.com/html/html_images.asp">Image layout</a></li>
+       <li><a href="http://www.w3schools.com/css/css_syntax.asp">The method of Css format a tag </a></li>
+       <li><a href="http://www.w3schools.com/tags/canvas_lineto.asp">HTML canvas lineTo() line </a></li>
+       <li><a href="http://www.w3schools.com/css/css_text.asp">Css text</a></li>
+        <li><a href="http://www.w3schools.com/css/css_font.asp">Css Font</a></li>
+      <li><a href="http://www.w3schools.com/html/html5_audio.asp">Hmtl audio</a></li>
+       <li><a href="http://www.w3schools.com/js/js_htmldom_events.asp">JavaScript HTML DOM Events</a></li>
+       <li><a href="http://www.w3schools.com/jquery/jquery_events.asp">Jquery Events</a></li>
+        <li><a href="http://www.w3schools.com/jquery/jquery_callback.asp">Jquery callback</a></li>
+  
+    
+      </ul>
+    </div>
+  </body>
+
+</html>
