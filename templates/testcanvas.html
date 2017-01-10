@@ -1,0 +1,67 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" /> <!-- reset css -->
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+
+<style>
+    body{ background-color: ivory; }
+    canvas{border:1px solid red;}
+</style>
+
+<script>
+//var c=0.8
+    $(function(){
+
+        var canvas=document.getElementById("canvas");
+        var c=canvas.getContext("2d");
+
+        // set the dynamic outside the loop
+        var dynamic = 20;
+        var x;
+        var y;
+
+         //loop function
+         //} donnot need ;
+        function loop(){
+
+            // change dynamic
+            //this is set as argument
+            //this is coordinate(x,y)
+           dynamic=dynamic+0.01;
+           x = dynamic*1;
+           y = 150+90*Math.sin(0.1*x);
+
+            // stop the the animation if it runs out-of-canvas
+            if (x>canvas.width || y>canvas.height){
+                c.clearRect(0,0,canvas.width,canvas.height);
+                clearInterval(myTimer);
+                alert("animation done!");
+            }
+
+           // clear the canvas for this loop's animation
+           //the below is very important
+           /*
+           when you donot call clearRect(),it remains origin drawing
+           */
+           //c.clearRect(0,0,canvas.width,canvas.height);
+
+           c.fillStyle = 'red';
+
+           // draw
+           c.beginPath();
+           //this is draw arc(x,y,radius,start ,end )
+           c.arc(x,y, 0.5, 0, Math.PI*2, false);
+           c.fill();
+        }
+        //this is setting interval
+        var myTimer=setInterval(loop,0.001);
+
+    }); // end $(function(){});
+</script>
+
+</head>
+
+<body>
+    <canvas id="canvas" width=10000 height=400></canvas>
+</body>
+</html>
