@@ -1,12 +1,9 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
      <script type="text/javascript" src="../static/js/jquery-3.1.1.min.js"></script>
     <title>Yangming's Html and Css</title>
-    <style>
-	</style>
   </head>
 
 
@@ -24,11 +21,37 @@ style="border:1px solid #000000;">
 
 
 <script>
+alert("hello");
 $(document).ready(function(){
     $("#p1").mouseenter(function(){
         alert("You entered p1!");
-
+     
     });
+    
+/*$.ajax({
+    type: "GET",
+    url: 'http://123.206.232.46:50/testjson',
+    //alert("ahahhhahhahahha")
+    //dataType:"json"
+    success: function(data){
+        alert(data);
+    }
+});
+*/
+$.ajax({
+        url: "http://123.206.232.46:50/testjson",
+        type: 'GET',
+        data:{},
+        heards:{},
+        dataType: 'json', // added data type
+        success: function(res) {
+            console.log(res);
+            alert(res);
+        }
+    });
+
+
+
     $("p").click(function(){
         $(this).hide();
     });
