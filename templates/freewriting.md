@@ -1,3 +1,5 @@
+[Greate acticle you need to read about wiriting and thinking ](http://www.dextronet.com/blog/accidental-genius-summary/)
+
 # you have
 ```
 this ia python a script
@@ -192,9 +194,100 @@ says .it is key to slove most problems i faces now.imho,i need to up my english 
 
 
 
+# using lying to eliminate error
+
+
+
 
 ```
 
+#  writting can slove the problem that you can read it bbut 
+
+   you can express it later
+
+
+```
+python is a kind of interpreter style languge ,that is ,
+
+it can be run after  editting code,donot need to compile
+
+at once.it will be compile when it is running.
+
+------------------------------------------------------
+
+WHAT I GET FROM LEARN STYLE BOOK is following
+
+1.writiing is good
+2.make a link is good
+3.try fresh things is good
+4.make a anonoly  is good
+5.do different things is good
+6.communicate with  a  somethings 
+
+--------------------------------------------------------
+what i get from 8000 hour is hte folloe=wing
+1.help others is good
+2.supporttive colleage is good
+
+what i draw from life 
+1. money is somithings you need to do too many things
+
+
+the problem i face when i slove aproblem is the following 
+a problem is relating to many things that i have mastered 
+then,i feel so tired .
+
+
+
+linux mount is my problem.i donnot like it for in shanghai 
+qingsuansuo time.
+
+
+i donnot  like to exact somethings becuase it is long
+
+sometimes ,some greate opion that i undestand but i cannot convert
+
+to my opion.this is bad
+
+
+
+
+get focused on what you want !!!!!!
+
+
+
+
+
+
+
+
+```
+
+# That i wll cherish and purse 
+```
+1.english 
+2.math
+3.economy
+4.computer 
+5.isiiisiiisiisiiisisiiisiisiiisisisisisisiisisisisisiisiisisisisisiisisiisiisisiisiiisiiiissiisisiiisiiisiis
+5.health,energy and love
+
+```
+
+
+
+
+# what i get from slef-controller book by stanmford writer
+1.need a good blood-sugar level
+
+
+
+```
+imho,it is a good opnion to persuit somethngs and it 's others 
+
+will be  brought to you
+
+```
 
 
 
