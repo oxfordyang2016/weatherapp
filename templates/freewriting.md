@@ -1,3 +1,22 @@
+
+#        client and server model
+```
+ ## net work  by yangming
+
+ flask can slove all kinds of problem s 
+ i can abstract web develop is fellowing:
+ client send  infomation to server ,server get the request 
+ and deal with the request ,as usaual ,it get a url .it will 
+ depath a url  to scratch to get all kinds of arguments.for example
+ the url is http://wwww.goo.com/?queryyangming=234&ui=colorful
+ .the server will get yangming and ui .after this,this argumewnts will be pass to corresponding function to deal with and get return value .
+ after it,server return value send to client,and client do corresponding actions.imho,json in this course was used frequently 
+ as info media at http body !!!!
+```
+ 
+
+
+
 [Greate acticle you need to read about wiriting and thinking ](http://www.dextronet.com/blog/accidental-genius-summary/)
 
 # you have
@@ -307,6 +326,104 @@ update your finish.
 
 
 ```
+
+```
+i disleike chiken soup
+
+i love the methodlogy that can land 
+
+
+
+
+```
+*[it may be a good link about person development](http://www.dextronet.com/blog/category/personal-development/)*
+
+```
+in a day ,if i have learn somethings ,i wili feel tired 
+i donnot want to learn more ,this is usual
+
+i think i have to figure out why my sex-disre is weak ??/
+
+
+```
+
+# python
+
+```
+python for me , i have some question and era to explore
+1.python thread and process 
+2.python asyn and syn
+3.python network adn socket  programming
+4.python work with c 
+
+
+
+i feel not easy of python network .it is that 
+
+
+
+```
+
+# base  konelegdeg in 2017
+
+```
+1. master network  basic
+2. linux basic comands 
+i feel i  ahve master python basic 
+
+
+```
+
+
+```
+# i will use -------- to block knowledge
+python
+---------------------
+i feel that python 's diffcult part is 
+python generaor ,python work with c,python network 
+python iterator ,python decorator
+------
+network
+-----------------------
+abou tcp , i can undestand is a protocal to communicate
+with infomation ,abou protocal i thing it is a guide that 
+we all referece to dothings ,tcp work in transfer layer,but
+i can not understand clearly what evry layer .from now,
+application layer play  a role that forward infomation ,imho,
+to approtiate application,when i have to learn the widershark 
+too to grasp packet,the tool that give me unhappy feeling ,i
+cannot  grasp .of course , i can abstract network to this sitiuation
+
+,thst is ,a -----send infotion to-------->b ,about tcp ,i also 
+
+know its tcp three-handshake,it is all .but the shake hands course
+i have forget . 
+--------
+my  innner
+---------
+i doubt that there is no have good quick start to a area,so i donnot
+get start happy,so that i cannot go deepth!!!!!
+
+-----
+network programming
+-------
+i think that  ,for example, a python flask 
+frame will deal with all kinds of network request,
+but we need to deal with security ,productivity ,etc that 
+result all kinds of tech such  as sysn ,acsyn,tls.ssl .etc
+
+
+
+
+
+```
+
+
+
+
+
+
+
 
 
 
