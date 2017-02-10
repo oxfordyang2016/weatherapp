@@ -98,8 +98,112 @@ windows ???
 
 ```
 
-   **about [how to think](http://www.dextronet.com/blog/accidental-genius-summary/)**
+   **[how to think via wirtting](http://www.dextronet.com/blog/accidental-genius-summary/)**
+
+
+## About think
+i wanna restart my think map ,but i care that i may stop
+it
+```
+the best part of the workday is i have slove the 
+sublime package  install problem,it frustrate me in
+yesterday,i feel sad and think i was not a good slover 
+of problem .even is not a  good programmer .but it 
+encourage me
+
+
+
+i want to show dir tree now ,this is below via linux tree comand
+          /yangmingproject/
+            ├── yangminggolang
+            └── yangmingpython
+                  └── yangmingflask
+
+
+
+ifeel wangwangis handsome when he is patient to answer my question
+this is i feel caton's energy
+
+
+
+Prompt Your Thinking
+Prompts are Freewriting exercise. When doing this exercise, you begin the Freewriting session with a pre-determined prompt.
+
+Prompts are open-ended phrases to warm you up and to send your mind into unanticipated directions.
+
+Prompts allow you to find many hidden jewels that you wouldn’t otherwise discover.
+
+Some examples of prompts include:
+
+The best part of my workday is…
+Yesterday I saw a curious thing…
+If I didn’t have to work, I’d…
+I threw a stone and it landed…
+I remember….
+I’d love to learn about…
+If I did the opposite of everything I normally do, my day would look like this…
+I love…
+I hate…
+I should do more…
+You know what I’d like to do again?
+If I were guaranteed success, the project I’d take on would be…
+The very generic ones can work wonders:
+
+The storm
+It was getting dark…
+The birds were singing…
+I opened the door…
+Three days from now…
+Prompts are somewhat similar to one of my long-time favorite techniques – question answered on paper. Basically, you write a question, and then start answering it. That’s it. It’s like querying your mind.
+
+When you make the question very open-ended, you are not looking for specific answers, and it’s a prompt. The result will be a surprise. On the other hand, when the question is very specific, so will be the answers.
 
 
 
 
+```
+
+```
+i eant to say in freewritting to that past=ing asome things
+is very  stipud for aganinst it origin
+```
+
+[it  is a greate link about wiriting](http://www.dextronet.com/blog/accidental-genius-summary/)
+
+```
+may i have feel that i lack think in somethingsd because for 
+i lack for writting ,it is a good point 
+it exisit in my universty second  fresh year,i feel good  and 
+it is used in 9 grade  time ,i write a post about chemistry
+that i feel sad about ,result i get passed in the test
+
+
+i belive that hte feeling i wrete is a base to influence my judgement
+
+but i feel it is bullshit
+
+
+all i have wittren up to this point about  how to use markdown 
+is bullshit,the truth is that markdown is a luanguge  for writting
+but a proamming language 
+i find that my problem is not how to slobe the problem 
+,my probelem is to understand problem  and understand what sloution 
+says .it is key to slove most problems i faces now.imho,i need to up my english ability and understanding linux basic 
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+ 
