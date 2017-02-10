@@ -9,9 +9,9 @@ install package problem
 ```
 # sublime question
 ```
-i have sloved sdublime problelem of cannot install 
+               i have sloved sdublime problelem of cannot install 
 
-package via a stackover flow link
+                package via a stackover flow link
 ```
 ```
 living is all kind s os happiness and sad 
