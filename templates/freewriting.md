@@ -290,7 +290,23 @@ will be  brought to you
 ```
 
 
+# git basic
 
+```
+imho ,git or github is a repository that  save your code
+
+git can work with github that work as repo ,make a anoly ,it 
+
+is a pool you can place  a finish in it or fetch it,you can
+
+update your finish.
+
+
+
+
+
+
+```
 
 
 
