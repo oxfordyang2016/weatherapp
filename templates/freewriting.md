@@ -29,7 +29,16 @@ user login out.also session id and ssesion content is dictionary,eg,6374838834:{
 or database or cache system.more things ,when more request were made ,you need
 to send http request with session id in http body or head argments or cookie or usrl argument!!!
 what i want to ask is the connection between cookie and http. another view,store too many data
-in cilent-side will increse your traffic.
+in cilent-side will increse your traffic.i can use facebook  as example,when you first
+login to server ,server check your passwod and username.if authenticated,fb will make 
+ssession id and  return your main page,and you continue request another link in your
+page ,you donot need authenticate ,in the hood,the browser will use the -styile link
+http://en.mail.qq.com/cgi-bin/readmail?sid=YkCUuyVilYYnMRxE,
+2,en_US&rank=2&mailid=ZC3212-rI46SNYOKzg0RGk~5fHZO64&t=readsubmail&mode=fake&s=r2&base=12.07&pf=0&folderid=3&folderkey= ,you can  sid =.............
+3e281772..but you need note that the session id is encrypted in cooike sent to server,but when you in chrome ,you can read uncrypted sseion id.....i want to know
+when you click  a link in fb ,who make your url's sid ,who encrypt it?????more,when
+clear your browser  data you will must  login again!!!!now i can undestand the connection between period and  ssession ,because after logining,your cookie will always
+be invoked!!!!!!when you login out ,your sseion id can not be used!!! 
 ----
 hacker news
 -----
