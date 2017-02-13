@@ -1,5 +1,11 @@
 # quick start
 ```
+--------
+load  balance
+---------
+load balance represent make too many traffic to all kinds of 
+application server .(mr wang said).proxy server is a forwarding
+request to different app server!!!
 ----
 session and session id
 -----
@@ -17,7 +23,13 @@ send it to client allong with http/s response,when client go on another request,
 it will send request to server with session id.
 when server receive the session id .server will to check the session id if exsit
 and do responding action .if exist ,go on .or server will request client
-to login.  
+to login.  but there is another view,session a period that between user login in and 
+user login out.also session id and ssesion content is dictionary,eg,6374838834:{'username':yangming,
+'password':xxxxxxxx(hashed)},about the form of session saved in server file system
+or database or cache system.more things ,when more request were made ,you need
+to send http request with session id in http body or head argments or cookie or usrl argument!!!
+what i want to ask is the connection between cookie and http. another view,store too many data
+in cilent-side will increse your traffic.
 ----
 hacker news
 -----
