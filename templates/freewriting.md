@@ -1,5 +1,242 @@
+# quick start
 
-#        client and server model
+```
+i think i need to restructed  my view to end 
+develop and it, i feel my knoledge is not sufficent
+to develop my career.
+---
+open source 
+-----
+encrypt   
+-----
+english grammar
+-------
+Not that i donnot  welcome competition,i just donot 
+see a real need in this field
+---
+python
+----
+imho,python is simpile ,python use list ,dictionary,set
+as basic datatype ,in other worlds ,i just am familiar with these,
+i understand python decorator is a packager that package gift
+but gift does not chnage .origin function allso all ulity
+,but origin function need to have have return value ,the return
+value will be used to make somthings.for example ,i write a decorater 
+function to print decorated function got arguments.i think that 
+youtube and twitter or internet have good resource to help
+you become more great pythoner .python also have a view,that is,
+your code is pythonic..........from where i stand,i find that if you 
+can not make use of anonoly to compare .after this time,you will forgrt
+what you have understand........ 
+----
+open-source
+------
+about open source,i get information from yc,open source lassfication 
+is following :game,frame ?????what i want to explore??????which type
+there exists????from which drection to explore opensource?????i belive 
+open source hidden a mout of fortune,but where i  start?????
+---
+someone
+-------
+my middle scholl time ,i have a habit to writting,but then,i have no
+view on wirtting,i find  that in many point,you can be a genius,but 
+after later.you will give up for all kinds resons and fact...M
+---
+english
+-----
+over also present the mean of about
+---
+genius
+----
+think oppositely
+think in anonoly
+learn from the little and error
+these view from ........
+---
+methodlogy
+----
+make anology is a sign of genius ,this view is main and  popular
+--
+someone
+----
+in chirldhodd,i use yumi stem to build somethings ,imho,that is
+a sign to reavel my character to create somethins,that is onnect 
+to the view (what is a ginus)  
+---
+future
+-----
+waht i wanna lean is piano
+----
+methodlogy
+-----
+use the style is good ,you can get some classfied topcs
+but you need to focus on some topcs or you r enrgy will
+bw be wasted!!!!
+----
+direction
+-----
+konw yourself
+math
+english
+health
+economy
+computer 
+methoslogy
+inner pysclology
+.......
+-----
+conclusin of  it
+---
+from my opinon,it consiitof ,it also can  syas r&d,
+version contorller,writting code,degsign frame,debug,log
+,depoly(imho,that is shipping your code to production)
+----
+english
+-----
+my english spoken is poor ,i thing the reson is that i cannot 
+read voice accent ,what i wanna say is ponetic symbol.in 7 grade
+that some resons i donnot understand ,from then,i donnot get good start
+,my accent is my english confiedence shortage ,....
+-----
+someone
+------
+i find that i donnot prefer to change my derection,,,,,,,,,,,,,,,,,,,,,,,,,
+sometimes,i cannot chnage ,sometime,i lack driverness!!!
+it is true!!!what i say is,fuck????i onluy can use some simple
+english cluase ,but it is good????
+
+----
+english
+-----
+english's grammar for me only have cluase ,clause is not easy as i think in mid school
+time,about clause ,i can drqwa draw a conclusin ,when you use that to as
+subject ,it can not missed ,when you use it as object,it can be missed 
+,how ever,bu reecent days ,i feel my cenlish work well,i think that there are some 
+reason to explain ,thatis,my reading materaial is so easy,or my english get a little 
+progress,as i said,my english env has a year,that is a good things.but when i read 
+more complex acticle or book such as spical paper or some book,i will feel my body
+not work with my mind,fuck ,waht i say is????
+---
+genius
+-----
+about genius,i read a author that may be a genius,
+he said genius 's charater is to produce,in the most recently days , i
+feel that my feling of years is more strong ,i feel 
+time is so hugrry!!!
+----
+qsjkasjakskaskajkasjjka
+-------
+economy
+----
+get somethings to sale higer price that is more than it's price i bought
+this is a good deal 
+--
+living
+------
+about living , i have sommany imagination
+if i have a so luxury watch,that is so coll
+if i have a so comforatable chair ,i will be
+satisfied.this is iiiiiiiiiii,what is that iwant to say
+these dayas, i feel so happy and sad becuase i feel sad
+i met some frastrated problem that make me think myself 
+is stupid,but the next days , i can figure out or slove the
+problem,then ,i will feel that i am good.in addition to thses
+good and bad,besdes,i feel that i need a macbook for well
+wrtting ,but it is necessary???i will doubt,after all,the
+lennove pc work with me that make me think taht it will
+work more times and my income or to say that is ti waste????
+i also feel that 2016 is a good year,fuck ,i can work with english
+so a year,that is awesome,in addition to i can get so important or
+insight views that do help me in the living,in fact ,to sloving a
+ problem ,you can open ten chrome tab ,this do more for me,
+ if i have so many tech is helping me be more great man1.chrome tab
+ tech 2.wirtting............what else i cannot imagne!!!!!!
+----
+about health
+-------
+to increase blood-sugur level is a good method to keep control yourslef
+and i feel worried about my health ,is following1,my weigh is ,is
+it importtant???????my sex desire is not so high that i have no confidence 
+to seek a girl ......i doubt that wheather my  shen work well.or my  maturbation
+is so frequent so that ?????these years my weigh and my body-form is not satisfy
+myself.but form other hands,my body donot get bad sick ,it is magic or luckily!
+i need some info to change my health about sex disire ,tire,body-form....
+
+-----
+sommene
+------
+i find that i will doubt this world,i am willing to believe
+the world that i belelive ,even if the research guide by the 
+top agency and famous reseacher 1！！！！！
+
+----
+english
+----
+about english .i have fellowing  puzzle ,that is ,listenning skill
+and poor spoken skill and unsuffient grammar ,that is my english 's 
+gap that need to be filled by myself
+
+
+---
+prostocation
+about th e psychelogy of procastion ,i wnat to say idraw a conlusin
+,the viem i remenber is what you only to do is to do ,it is so scarefull
+as you imagine!!1
+
+---
+future
+-----
+i have decide to devote my energy to math ,english ,computer,economy,problem
+-sloving,if i have some fitness ,i will  get so many fortune  i thinkM
+
+----
+habit
+----
+inspired by someone,i get a view that he get greate succes via not wasting 
+his ennegy and slways get somethings,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+
+# develop
+```
+client send data to server and server can store data
+into database or deal with the data in function
+,function 's operation always ocuur in data ,
+
+```
+
+
+# master math
+```
+imho,math is consit of daoshu ,jifen ,alege math
+,from my opinoin ,i donot get idea,that is,i cannit 
+get good position,this years,inned to rethink that why
+form somoe pition,that i can not work hard but
+i feel that i realy  work hard!
+
+```
+```
+every day ,we need to get progress 
+just a little is a important point
+```
+#  client and server model
 ```
  ## net work  by yangming
 
@@ -273,12 +510,17 @@ to my opion.this is bad
 
 get focused on what you want !!!!!!
 
-
-
-
-
-
-
+----
+history
+----
+mongolia is a great contry that own most of continent
+in the earth
+----
+inner
+------
+i feel that my disre for  back chengdu is get more strong..
+is it sigin that i can not work hard,or i can not be used to
+hard mode??????
 
 ```
 
@@ -412,8 +654,12 @@ frame will deal with all kinds of network request,
 but we need to deal with security ,productivity ,etc that 
 result all kinds of tech such  as sysn ,acsyn,tls.ssl .etc
 
-
-
+----
+living
+-------
+shanghai jiadinglibarray if have network,that is so beautiful things 
+i want to live i=in near by shanghai libray
+-----------
 
 
 ```
