@@ -1,6 +1,28 @@
 # quick start
-
 ```
+-----
+project
+------
+draw a conclusion,every project need a why to use it page and
+comparision to major compitor that do more good to our clients
+but not damage our compeitor!!
+----
+nginx
+-------
+imho,nginx is a tool to increase web access to server to down memory and 
+cpu,it is similiar to apache.
+------
+python tech stack
+-------
+Qualifications: •Familiarity with our technology stack: 
+Python, Django, PostgreSQL, Nginx, Varnish,
+ Redis, JavaScript, Angular and Bootstrap – 
+ all on Linux on a popular public IaaS or PaaS.
+  •Experience working in DevOps environments. 
+  •Understanding of security standards and concepts.
+-----
+someone
+-------
 i think i need to restructed  my view to end 
 develop and it, i feel my knoledge is not sufficent
 to develop my career.
