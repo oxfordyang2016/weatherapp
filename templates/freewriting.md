@@ -1,16 +1,43 @@
 # quick start
 ```
+----
+session and session id
+-----
+i understand session is paharase that  start client send request to server and server send 
+reply data to client between the two pharase.from my view,i think ,ssesion is to slove 
+the problem that how to slove http stateless  problem ,thatis,again http request ,you need to
+write username and userpassword,but ssession id slove the problem,
+a session id a connection.session is a data structure that 
+save your username and password(hassed).besides,you can save another things in
+session,session connect mode is the following:user use username and
+ password to login in web server if authenticated,server make a session
+datastructure that includes your username and your password and allocate
+a session id to the session and keep the session id in cookie and
+send it to client allong with http/s response,when client go on another request,
+it will send request to server with session id.
+when server receive the session id .server will to check the session id if exsit
+and do responding action .if exist ,go on .or server will request client
+to login.  
+----
+hacker news
+-----
+it may does not connect to the issue by author,when thread was come up with
 -----
 project
 ------
 draw a conclusion,every project need a why to use it page and
 comparision to major compitor that do more good to our clients
-but not damage our compeitor!!
+but not damage our compeitor!!   features comparision  is important
+the  project also need what is the project?????
 ----
 nginx
 -------
 imho,nginx is a tool to increase web access to server to down memory and 
-cpu,it is similiar to apache.
+cpu,it is similiar to apache.from some opnion .it is used to load banlance
+such as ,forward all kinds of request to all kinds of app server and do more 
+opreation on  request,such as request size ,authen method .also another view ,
+it is as a firewall ,for in a big rentepreter ,nginx act as fire wall to,for 
+oiur developer  cannot touch in system.
 ------
 python tech stack
 -------
