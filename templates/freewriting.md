@@ -2,6 +2,62 @@
 ```
 ---
 someone
+-----
+now , my willing is to be expert in mysql and python.!!!before may
+----
+encode and decode
+-------
+about decode and encode ,the is connetction about convert byte to objetc that human can understand.
+in unicode culture ,there is a way that convert charater,it is automatic unite of  a languge, to numbers
+numbers converts to bit that was storaged in computer.from now my view,unicode define a large number to
+corresponding alll kinds of charater.simple to say.unicode is like a table,you can map number to charater
+in the world.
+-----
+python
+-----
+from yangming's view ,when you use a=5 or b='yangmingishandosmor',when you run python
+python will allocate memory according to size,besides,'yangmingishandsome' is convert to
+byte according to  utf-8 encoding schema.i want to ask who  finish the encode ,is python ??
+is the gcc???
+-----
+english 
+------
+that syas,
+-----
+living
+-----
+in your wall ,use 8 or 10 group swithc ,your ligth world is beatiful
+---
+python pep8
+-----
+1.always use import in .py file head.
+2.even in same dir,you should aviod to use import bar
+  should use from .  import bar(if must).when you should
+  use form bar import bar
+about pep8 ,imho,you ned tool to format and read more  about 
+matrerail
+
+PYTHON's unicode decode and encode is a pile of shit.
+about a=b a and b all refer to same object
+about c=a[2:3],c is a new list.from now, i think only a=b,a is b
+all other situations,not same object,may values is same
+item 5 is  ok ,i master.
+
+---
+python
+-----
+i need to read python pep8 example to format my python code
+----
+python runtime env
+-----
+thiis is that the env that make python code to machine code
+you can use following code to lokk up:
+import sys
+print(sys.version_info)
+print(sys.version)
+
+---
+someone
 ------
 i feel that i was dependent  in caton
 --------
