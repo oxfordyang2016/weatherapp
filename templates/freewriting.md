@@ -1,6 +1,23 @@
 # quick start
 ```
+----
+python
+-----
+python class attribute have two type
+that include 1. in  __init__ 2.in class level,but i have doubt that in class level i 
+ can via self.classlevelattrubute to modeify . i affirm to access is good 
+you can a=class(),a.classlevel to get value.you can refer to 
+https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/
+.if you can in class to implement __getitem__ method,you will a[]
+and result loop and reversed .so on,you can finish iterable  function such as
+for 
+
 ---
+how to install sikulix
+----
+https://www.youtube.com/watch?v=QiLkTP9Y_d4
+use C:\SikuliX
+----
 someone
 -----
 now , my willing is to be expert in mysql and python.!!!before may
@@ -11,7 +28,8 @@ about decode and encode ,the is connetction about convert byte to objetc that hu
 in unicode culture ,there is a way that convert charater,it is automatic unite of  a languge, to numbers
 numbers converts to bit that was storaged in computer.from now my view,unicode define a large number to
 corresponding alll kinds of charater.simple to say.unicode is like a table,you can map number to charater
-in the world.
+in the world.about ascii,i want to say if i send you 65,you understand i send a A to you.from now,byte ,asingle
+byte cannot slove to represent all kinds of symbol.i need to  understand python code how to convert machnie code.
 -----
 python
 -----
