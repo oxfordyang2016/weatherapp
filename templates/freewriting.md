@@ -1,5 +1,15 @@
 # quick start
 ```
+---
+python
+---
+via implement a __getitem__ and __len__ method,i can implent a sequence (or list )
+most method,susch as len ,a[3],balabalbala......but i cannot change the sequece
+'s position  and value.imho,when you implement python __getitem__ method,when use len()
+function,implecitly  invoke the __getitem__ method,other functions seem to be same!!!you must know python interpreter invoke this spicial methos,interpreter is 
+python version......i want to say that __repr__ and __str__ 's effect is same .but we advise you use __repr__method
+imho,sequence is somthings such as animal include pepole 
+,monkey ,dog,pig,sequence include list.string etc
 ----
 someone
 ----
