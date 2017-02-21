@@ -1,6 +1,10 @@
 # quick start
 ```
 ----
+someone
+----
+i have a phonenon that i canot grasp knoledge very deeply!!!
+----
 python
 -----
 python class attribute have two type
@@ -11,6 +15,7 @@ https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-obj
 .if you can in class to implement __getitem__ method,you will a[]
 and result loop and reversed .so on,you can finish iterable  function such as
 for 
+doctest the number of item s is a problem.
 
 ---
 how to install sikulix
