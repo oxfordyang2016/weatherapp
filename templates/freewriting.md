@@ -1,6 +1,18 @@
 # quick start
 ```
 ---
+what i understand the internet is the c/s ,sustomer
+send data to server ,server detect data if need be deal with,such as user if login,if data written to database,
+server's function do deal with the data and return data
+to customer,from send data view,i understand what style to
+be used to send data ,it related to network ,i can go on  abstarct transmit data(via internet ,forward data to corresponding function),encript data,deal data,imho ,coreesonding network and algorithm,languge.of course ,i find that you must note there is data store problem. 
+data problem
+---
+---
+authication
+-----
+from path,i find to check a user if login in ,if not
+it will stop login page--
 python
 ---
 via implement a __getitem__ and __len__ method,i can implent a sequence (or list )
