@@ -1,5 +1,23 @@
 # quick start
 ```
+-----
+python 
+------
+python switch variable 
+a,b=b,a
+-----
+python tuple
+-----
+tuple 's element is all kinds of types,but immutable
+from now,memory is big problem ,when related to redis and python generator
+----
+login and autication
+--------
+i undestand that authentication sys is user send username and password,if username and password doesnot 
+exsit in database,return register html page,user fill info (via form) and click submit(register) ,send info
+to server ,and server store info in database,return login page.about  password style in db,imho,should use 
+hash code style,from my  now,i donot hash and donnot set password policy ,and donnot restrict or say that i donot
+know how to protect info 's secure. html.page you can refer to https://github.com/oxfordyang2016/flask-help/blob/master/hello.py
 ----
 html
 -----
