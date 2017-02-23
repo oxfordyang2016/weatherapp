@@ -1,5 +1,49 @@
 # quick start
 ```
+----
+html
+-----
+when you use html form,you can use from element to  implement the function 
+in from element .there was a things called action,you can use the example to
+implement this function .at the same time ,you also note that method can be specify
+,imho,post only fro more secure=ly upload data
+<form action="http://global.bing.com/?FORM=HPCNEN&setmkt=en-us&setlang=en-us" method="POST">
+        <div class="login">
+                <div class="login-screen">
+                        <div class="app-title">
+                                <h1>Login</h1>
+                        </div>
+
+                        <div class="login-form">
+                                <div class="control-group">
+                                <input type="text" class="login-field" value="" placeholder="username" name="username">
+                                <label class="login-field-icon fui-user" for="login-name"></label>
+                                </div>
+
+                                <div class="control-group">
+                                <input type="password" class="login-field" value="" placeholder="password" name="password">
+                                <label class="login-field-icon fui-lock" for="login-pass"></label>
+                                </div>
+
+                <input type="submit" value="Log in" class="btn btn-primary btn-large btn-block" >
+                            <br>
+                        </div>
+                </div>
+        </div>
+</form>
+of course ,you need to think that when you first send data to  which url?????????you can verify form data 
+via in python to get form data
+----
+cs
+---
+login,regester,logout,all take actions that includes send 
+data to server ,server deal with data ,return html,when data sent to server will be store database or verify .
+-----
+someone
+------
+i need a heart state that when i finish all tasks,i need rest!!!!!but i face all situation is that tasks cannot be donw or i dnonot want to stop. 
+----
+cs
 ---
 what i understand the internet is the c/s ,sustomer
 send data to server ,server detect data if need be deal with,such as user if login,if data written to database,
@@ -9,7 +53,7 @@ be used to send data ,it related to network ,i can go on  abstarct transmit data
 data problem
 ---
 ---
-authication
+authication 
 -----
 from path,i find to check a user if login in ,if not
 it will stop login page--
