@@ -1,9 +1,32 @@
 # quick start
 ```
 ----
+python 
+-----
+i can feel that python interpreter actions when you run a script or a program ,a=3,allocate memory
+??????????????????????????????????????????????a=Classexample(6,7,8).same ,allocate for the instance
+,when you can use len(a)(the class implement __len()__ mwthod ),the interpreter see what a is ???
+fuck it is a class (i doubt there it activate a mechinism that check  the type object,for instance,
+the checked result is string ,it will understnd string class have implemented __len__ method,it will
+invoke it,a.__len__() and the return value.) ,it will check if the class include a __len__() method,
+if it  include,it will  get the value.if not,it will  give callback error or say it is exception!!!!
+.about garabage collection  mechnism ,tha is another thing!!!!!!
+-----
+someone
+-----
+when you want to say in writting,you can access your inner.
+----
 python
 --------
 i doubt all python object implemented by class
+phd sai that python object in python shell(or interpreter ) life circle
+is exit python shell.but in function ,wehn function end,the object end ,but 
+also observe reference count.another info a=[1,23,4,5],when i use a[3]=1,i only in-place (origin list position) change list rather than create a list,but also
+spicial situation.you must notice.from my opinion,a=[1,2,3,4,5,6].you can understand that
+list is common mutable consequnce,but string and tuple ,string is immutable,what is immutable,
+immutable is a[3] if can change origin consequnce value. i can undestand ,when you a=a+b ,id(a) donot equal 
+origin id(a),but you use a+=[2],id(a) is oriign value.this is same in literaly.you can understand that in-place 
+as same position but new is not at same position.__iadd__ is the former ,by visrce.
 -----
 someone
 -----
