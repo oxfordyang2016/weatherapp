@@ -1,6 +1,340 @@
 # quick start
 ```
 -----
+someone
+-----
+i always believe that there is a method or think tool to help people to slove any question!
+-------
+book
+-----
+it may be  a book https://news.ycombinator.com/item?id=12459216
+---
+network
+-----
+i feel sad with network??i undestand layer as n protocal in a layer
+---
+about algorithm
+------
+https://news.ycombinator.com/item?id=4783301
+----------------
+how to read a book
+------
+https://news.ycombinator.com/item?id=12209446
+-----
+sf  scope
+------
+I somehow cannot understand the trends, altough I checked following sites and utilized Twitter stats/trends.
+
+* http://www.google.com/trends
+
+* http://www.trendsresearch.com
+
+* http://www.worldtrendsresearch.com/major-trends.php
+
+Here is a general list of ideas that I'd like to pick 2 to 3 from the topics to create a project that is mashing them up in a Ruby On Rails project. It's important to choose only key features of each topic and merge them into one idea.
+
+I don't see the problem that people seem to have according to trends, so I cannot solve it.
+
+Can you please help me with that? I'm searching for a project idea.
+
+Here's a list of Project Ideas I found in the net.
+
+==================================================
+
+1. Business Performance Reporting
+
+2. Case Management for Government Agencies
+
+3. Classroom Management
+
+4. Clinical Trial Initiation and Management
+
+5. Competitive Analysis Web Site
+
+6. Discussion Forum website
+
+7. Disputed Invoice Management
+
+8. Employee Training Scheduling and Materials
+
+9. Equity Research Management
+
+10. Integrated Marketing Campaign Tracking
+
+11. Manufacturing Process Managements
+
+12. Product and Marketing Requirements Planning
+
+13. Request for Proposal Software
+
+14. Sports League Management
+
+15. Absence Request and Vacation Schedule Management
+
+16. Budgeting and Tracking Multiple Projects
+
+17. Bug Database Management
+
+18. Call Center Management Software
+
+19. Change Request Management
+
+20. Compliance Process Support Site
+
+21. Contacts Management Software
+
+22. Document Library and Review
+
+23. Event Planning and Management
+
+24. Expense Reimbursement and Approval
+
+25. Help Desk and Ticket Management
+
+26. Inventory Tracking
+
+27. I T Team Workspace
+
+29. Job Requisition and Interview Management
+
+28. Knowledge Base
+
+29. Lending Library
+
+30. Physical Asset Tracking and Management
+
+31. Project Tracking Workspace
+
+32. Shopping Cart
+
+33. Knowledge Base 34 Lending Library
+
+35. Physical Asset Tracking and Management
+
+36. Project Tracking Workspace
+
+37. Room and Equipment Reservations
+
+38. Sales Lead Pipeline
+
+39. Yellow Pages & Business Directory
+
+40. Time & Billing
+
+41. Class Room Management
+
+42. Expense Report Database
+
+43. Sales Contact Management Database
+
+44. Inventory Management Database
+
+45. Issue Database
+
+46. Event Management Database
+
+47. Service Call Management Database
+
+48. Accounting Ledger Database
+
+49. Asset Tracking Database
+
+50. Cycle Factory Works Management
+
+51. Sales Corporation Management
+
+52. Business Directory
+
+53. Education Directory
+
+54. Dental Clinic Management
+
+55. Fund Raising Management
+
+56. Clinic/ Health Management
+
+57. Cable Management System
+
+58. Survey Creation and Analytics
+
+59. Museum Management System
+
+60. Multi-Level Marketing System
+
+61. Learning Management System
+
+62. Knowledge Management System
+
+63. Missing Person Site
+
+64. Disaster Management Site
+
+65. Job Management Site
+
+66. Financial Portfolio Management
+
+67. Market Research Management
+
+68. Order Management System
+
+69. Point of Sale
+
+70. Advertisement /Banner Management and Analytics
+
+71. Export Management System
+
+72. Invoice Management
+
+73. Recruitment Management System
+
+74. Articles / Blog / Wiki Web site
+
+75. Online Planner
+
+76. Mock Tests and Examination Management
+
+77. Examination System
+
+78. Practice Test Management.
+
+79. Asset Management System
+
+80. Travel Agency System.
+
+81. Placement Management System.
+
+82. Polls Management
+
+83. Customer Management
+
+84. Project Management System.
+
+85. Network Marketing System
+
+86. Yoga Health Care Management
+
+87. Personal Finance Management System
+
+88. Real Estate Management System
+
+89. Stock Mutual Funds Management
+
+90. Careers and Employment Management System
+
+91. Music Albums Management System
+
+92. Classified Ads Managements
+
+93. Property Management System
+
+94. Sales & Retail Management
+
+95. Dating Site
+
+96. Hotel Management System
+
+97. Search Engine
+
+98. Online News Paper Site
+
+99. Image Gallery 100. Staffing and Human Capital Management
+
+101. Address Book
+
+102. Inventory Management System
+
+103. Newspaper Classifieds
+
+104. Hostel Management 105Music , Lyrics Website .
+
+106. Wildlife Safari Trip Management
+
+107. Wildlife Sanctuary Management
+
+108. Wild life Flora and Fauna Statistics Management
+
+109. Animal Hospital Management
+
+110. Zoo Management System
+
+111. Agro-Forestry Management System
+
+112. Bus Depot Management System
+
+113. Even t Management System
+
+114. Clinical Research Management System
+
+115. Food Technology Management System
+
+116. Circus Management System
+
+117. ResortManagement System
+
+118. Bugs/IssuesManagement System
+
+119. Life /MotorInsurance Management System
+
+120. Exam Scheduler
+
+121. Ad CampaignManagement System
+
+123. Internet Banking Management System
+
+124. Ad Agency Management System
+
+125. Vechical Traffic Management System
+
+126. Web Traffic Analytics Management System
+
+127. Solid Waste Management System
+
+128. Peer-To –Peer File Sharing System
+
+129. Chat Application
+
+130. Crisis Management System
+
+131. Disaster Management System
+
+132. Document Management System
+
+133. Security Threats Evolution Software
+
+134. Digital Rights Management System
+
+135. Games ,Single , Multi-Player
+
+136. Content /Document Management System
+
+137. Archaeological Survey Management System
+
+138. Market Research Management System
+
+139. Crime Management System
+
+140. Jail/Prisonmanagement System
+
+141. Telephone Traffic Monitoring Management System
+
+142. School Drop Out Statistics and Analytics System
+
+143. Lost & Found Management System
+
+144. Online Tutorials Management System
+
+145. Bulk Sms Application
+
+146. Criminal Records management System
+
+147. Email Campaign Management System
+
+148. Political Campaign Management System
+
+149. Skill Competence and Mapping Application
+
+150. Ontology based Web Crawler (source: http://goo.gl/Du3ow)
+-----
 python 
 ------
 python switch variable 
