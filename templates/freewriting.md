@@ -1,5 +1,9 @@
 # quick start
 ```
+----
+python
+--------
+i doubt all python object implemented by class
 -----
 someone
 -----
