@@ -1,5 +1,24 @@
 # quick start
 ```
+-----
+python
+------
+python running a script 's process is that complie a .py ----->.pyc (or other)
+bytecode file and python intepreter excute the .pyc file.but i want to know
+.py how to be complied and by who??????what i need know is that if python run 
+a .py file ,for example in a project,python run a hello.py but he invoke other 
+module,how it work with he hello.py????why open a file and you need close the file???
+.of course ,i understand .pyc file is a binary file.
+----
+world
+-----
+the worls seem to seek more quick speed.more speed.
+----
+someone
+-----
+i find that when i slove a probem ,when it related to many things
+i will be distracted,so may be my cause for can not finish a
+things totaly ,it may be that forget why start?????
 ----
 someone
 -----
