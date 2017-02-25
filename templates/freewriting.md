@@ -1,6 +1,29 @@
 # quick start
 ```
 ----
+someone
+-----
+i wanna listen other and i wanna cultivate the habit that make me
+do one thing at once. 
+----
+python 
+------
+i feel that list in memory is  a array.or it is notassciated
+with c's array,i need to understand it vi asking phd zhang.
+-----
+someone
+-----
+about distraction.my solution is that place my time in a bucket that 
+including math,cs,english,and economy.that will do well,i guess,but
+there are a problem that how can i can i orginize the konedege that
+i donot drown in the ocean of konelege????
+----
+someone
+-----
+i feel like that my the shit problem is stop a things in half way
+many things i donot perserve anfd i cannot go on,why?this is 
+my biggest problem.
+----
 python 
 -----
 i can feel that python interpreter actions when you run a script or a program ,a=3,allocate memory
