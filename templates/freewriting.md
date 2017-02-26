@@ -1,5 +1,25 @@
 # quick start
 ```
+http://pdf2doc.com/
+-----
+python
+------
+python design pholi ideal is that a[-1] is very good
+this is unbelieveble in c language
+----
+someone
+----
+i find that my biggest annoy is there is only
+ too small time to learn more things
+i want.for myslef,i konw that i was the someone
+that i konw there are tresure that i want to dig
+that i dig a graph that include property.so i convert my
+enenrgy to dig another ,so that i again dig a graph of preoperty
+,so that i am trapped in dead loop.
+-----
+someone
+------
+soemtimes,many things saia the same thngs,but i cannot find.
 -----
 python
 ------
@@ -8,7 +28,9 @@ bytecode file and python intepreter excute the .pyc file.but i want to know
 .py how to be complied and by who??????what i need know is that if python run 
 a .py file ,for example in a project,python run a hello.py but he invoke other 
 module,how it work with he hello.py????why open a file and you need close the file???
-.of course ,i understand .pyc file is a binary file.
+.of course ,i understand .pyc file is a binary file.i can not find .pyc file in my windows.another hand,i feel that .py compiled to binary file cache to .pyc file
+when next time you run the code .py file the interpreter will run the .pyc file
+,now i have not undertsand.
 ----
 world
 -----
