@@ -2,6 +2,26 @@
 ```
 -----
 python
+-------
+python array 's exsistence let me feel annonyed ,bacause 
+my c foudation is weak.
+------
+someone
+------
+i think that this summer is the time i left caton
+----
+image recognization
+------
+i find the theory is that it locate the position to find the position's function
+when again you stop the postion (coordinate),it will detect the function value is
+corresponding the value.
+------
+python
+------
+i just want to say that if you  import a moudle that moudle include print('balalabalala')
+when you import,the print will  be excute.
+-----
+python
 ------
 python running a script 's process is that complie a .py ----->.pyc (or other)
 bytecode file and python intepreter excute the .pyc file.but i want to know
