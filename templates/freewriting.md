@@ -2,6 +2,13 @@
 ```
 -----
 python
+------
+form now,i feel that python all kinds of methods implemented by class method
+aalso,class method main include magical method,this is main method to implement
+such as len(), d[k],in so on .yeah .of course,i doubt that string ,list ,dict is
+some subclass ,just  a guess ,such as ,collection,object .......balbala.about class method ,there is a mechinism called fall back to ,it is, when you invoke a method ,the method doesnot exist ,it will invoke another method.
+------
+python
 -------
 python array 's exsistence let me feel annonyed ,bacause 
 my c foudation is weak.
