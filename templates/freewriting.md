@@ -1,5 +1,18 @@
 # quick start
 ```
+------
+python
+------
+python all object was inplemented by class ideal by doctor zhang
+-----
+python 
+-----
+python interpreter run  a .py file located in disk and ask os to allocate space in
+memory to run the program.before compiling,there is a paser ,it will parser grammar 
+to syntax tree,comiple the tree to bytecode.there  are more discuss,in compile,that is
+,.py------>.pyc that is,in fact,import sector will convert to .pyc .for example.a.by 
+include import b(b.py),that is ,b.py-------b.pyc.but a will not compile.but in the runtime a.py will be compile to .pyc in memory.........but when you exit ,it will
+delete .pyc file..
 -----
 python
 ------
