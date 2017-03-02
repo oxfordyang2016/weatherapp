@@ -1,5 +1,11 @@
 # quick start
 ```
+-----
+python
+------
+detect a class leevl ,you can ask sb how to restrict class instance attribute
+,such as a.b or a.b=3 if you need to gurantee this attibute >0????
+my now answer is to use descriptor.
 ------
 python
 -------
