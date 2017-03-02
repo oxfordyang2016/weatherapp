@@ -1,5 +1,27 @@
 # quick start
 ```
+-----
+resume
+-------
+i have bug database of python ,mysql
+i can use source control tool
+
+---
+someone
+---
+my opiniopn is that i can use python do anything.
+----
+openspource
+-------
+i need opensource to open my career.which director i need?????my
+ideal is tohelp others and get  a bunch  of
+ margin,now i need to yhink  what can i do use machining learning,what can i do 
+ via python for marigin?????for nmore great career.
+
+----
+nginx
+-----
+i need to  konw what nginx can do???????
 ------
 python
 ------
