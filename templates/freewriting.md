@@ -1,6 +1,28 @@
 # quick start
 ```
 -----
+python class
+------
+python class self ,best understand is  that,if a instance was created ,self
+is simialr to a instance.in fact ,i feel ,eeven if you created a class,when 
+define a instance ,you can add a instance attribute,for axample:
+class A:
+    def __init__(self,bi,lu):
+        self.author=bi
+        self.title=lu
+you can use a=A(67,78),YOU CAN USE a.io='yangmingishandsome'        
+
+----
+python
+-----
+if  i define a class ,i can use a.attribute=5 to reassign a class attribut????
+in fact ,it is real ,you can that i have via experiement,read ooficial document
+'s difficulty is that you may donot have a bluprint of the concept.'
+-----
+python
+-----
+imho ,python operator is such as + - /％　ｅｔｃ..
+-----
 resume
 -------
 i have bug database of python ,mysql
