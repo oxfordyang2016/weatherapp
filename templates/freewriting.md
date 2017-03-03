@@ -1,5 +1,13 @@
 # quick start
 ```
+---
+someone
+------
+i need to know what kinds of who i want to be???????
+-----
+study
+-------
+i want to focus my energy to (math,cs,peolpe,english,economy)
 -----
 python
 ------
