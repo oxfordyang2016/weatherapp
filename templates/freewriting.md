@@ -1,6 +1,21 @@
 # quick start
 ```
 -----
+pytho
+
+
+
+
+------
+python
+------
+i konw that python class level variale is called class attribute ,and in __init__
+methos we call instance attribute
+
+
+
+
+-----
 foture
 ------
 i may set up comapny to orgnize the master to driver company forward.
