@@ -1,5 +1,9 @@
 # quick start
 ```
+-----
+future
+------
+mr wangwang supply great view about problem-driving ,
 ----
 someone
 ------
@@ -17,7 +21,7 @@ it is a good way ,class method also return self.
 python
 -------
 i understand python context manager ,that is,it is used to manage context,it is
-when you open a file ,you need to ,close a file,when you open a database connect ,you should close a connect.context manager is to say ,oh ,if you are in north ,you need to open 
+when you open a file ,you need to ,close a file,when you open a database connect ,you should close a connect.contexanager is to say ,oh ,if you are in north ,you need to open 
 a door and you need to close a door.and the context manager will use the __enter__ and
 the __exit__ method to implement it .and you can use with door() this form to do this things
 
