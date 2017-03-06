@@ -1,5 +1,18 @@
 # quick start
 ```
+----
+someone
+------
+ifeel thet my main problem is that  manage my energy to a things 2.explore all kinds of 
+direcretion 3.how to applied my owning konledge to a things that will work.
+
+
+
+-----
+python
+-------
+in the inner of class ,you call class method,you should use self.method()
+it is a good way ,class method also return self.
 ------
 python
 -------
