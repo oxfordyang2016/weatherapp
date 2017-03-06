@@ -1,28 +1,126 @@
 # quick start
 ```
------
-foture
-------
-i may set up comapny to orgnize the master to driver company forward.
------
-future
 -------
-we can use throw shoes ideal with two man to warm now
----
+python
+--------
+python requirements.txt used to install corresponding your package
+when you distribute your code.as,pip install -e requirements.
+------
+cs
+------
+i need to make a  frame to orgnize my python konwledge.
+-----
 someone
-------
-i need to know what kinds of who i want to be???????
 -----
-study
+use video to recird your life ,it is a great ideal,i have find it in university
+but i donot apply it,i will use it in next days.
+------
+SOMEONE
+---------
+connect the world is the way you feel your exsistence.
+-----
+someone
 -------
-i want to focus my energy to (math,cs,peolpe,english,economy)
+i need to check or other my  love view
+
+------
+cs finance
+---
+i can convert pdf and download youtube to bussiness.
+
+
+
+-------
+finance
+------
+finnace is on time and crisis.
+
+
+------
+some one
+-------
+i have a feeling ,thet is real ,finnace safety ,i have not been owning it 
+from these years,this point ,i have must to noted.
+
+-----
+self improving
+-----
+i have learned a great view,anythings if you need todo,you only
+three seconds to thinks ,if yo exceed 3 secnds,you will not
+----
+slef improving
+------
+1.keep your blood sugar level
+2.sleep in designated time 
+3.set a break interval during 90-120 /or depend on yourself.
+4.
+-----
+english  read
+------
+for read view,you dont have to gigure out every word,you only need to guess
+,if the word occur again,you need to figure out via tools book
+-------
+english
+______
+many executives don’t find ways to practice consistently healthy behaviors, given all the other demands in their lives
+GIVEN ====because.
+
+
+
+------
+someone
+-------
+sleep early and getting up early ,these yeaers i have not succeddd.
+------
+someone
+---------
+look for enengy of myslef solution is a good ideal ,because
+i feel these years i hav been being  tired!!!!!
+------
+somone
+-------
+i feel that  the period  of caton isno longer time.for i will not get more
+my duty，icannotfind more accute position in caton.
+
+-----
+problem slove
+-----
+in a book about complixity,it use divide and conquer method to
+test volume.
+
+-------
+
+
+
+                    problem sloving
+
+                 math    economy     cs 
+
+                   english    people  
+
+
+------
+book
+------
+from self contorl view,add blood sugar is very good level.
+------
+pythonlist
+----------
+python list concentrate action is composed
+by l1+l2 it will produce a new list ,we set a empty list
+it is..........[],
+for elem in l1:
+    a.appended(elem)
+for elem in l2:
+    a.appended(elem)    
+also,i see mit algorithm course ,them say in list operation ,many action
+is o(1) complixity.
 -----
 python
 ------
 detect a class leevl ,you can ask sb how to restrict class instance attribute
 ,such as a.b or a.b=3 if you need to gurantee this attibute >0????
-my now answer is to use descriptor.how to understand python how to invoke magical 
-method in the scene/hood?
+my now answer is to use descriptor.
 ------
 python
 -------
@@ -104,7 +202,7 @@ i think that this summer is the time i left caton
 ----
 image recognization
 ------
-i find the theory is that it locate the position to find the position's function
+i find the this that it locate the position to find the position's function
 when again you stop the postion (coordinate),it will detect the function value is
 corresponding the value.
 ------
