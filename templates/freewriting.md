@@ -1,5 +1,40 @@
 # quick start
 ```
+------
+python
+-------
+i understand python context manager ,that is,it is used to manage context,it is
+when you open a file ,you need to ,close a file,when you open a database connect ,you should close a connect.context manager is to say ,oh ,if you are in north ,you need to open 
+a door and you need to close a door.and the context manager will use the __enter__ and
+the __exit__ method to implement it .and you can use with door() this form to do this things
+
+
+
+
+
+
+------
+someone
+-----
+when i have carros primary or /start stage ,i havenot get more progress.
+
+
+
+------
+someone
+-------
+i have a trend that i believe opinion by i believe he is a great pepole
+
+
+
+------
+python class 
+-------
+you can figure out python instance attribute must be arranged.
+not have to be in __init__ constuctor.beswides.in python 2,class
+Someone(object),in python 3 ,you can use class Someone: not subclass
+object.i find that pythonn  
+
 -------
 python
 --------
@@ -12,8 +47,7 @@ i need to make a  frame to orgnize my python konwledge.
 -----
 someone
 -----
-<<<<<<< HEAD
-pytho
+python
 
 
 
