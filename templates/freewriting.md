@@ -1,5 +1,34 @@
 # quick start
 ```
+
+
+-----
+python and cs
+-------
+use mit with python introduce ,or it is a goood ideal
+-----
+python
+-------
+may it be ,reference and variable and name is same thing in python
+-------
+problem sloving
+----------
+say with a robot or a thing,you can understand /orgnize your puzzle.
+
+------
+python
+------
+i can let my heroku to run my code in  server forever via write code in main.py!!!!
+python main.py in hthe hood ,i guess this is the mechinism of heroku
+
+------
+python
+------
+about python ,i need to build a map of kownledge,my current method is to
+
+
+
+
 -----
 future
 ------
