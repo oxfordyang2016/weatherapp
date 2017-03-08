@@ -1,5 +1,16 @@
 # quick start
 ```
+------
+ivp
+-------
+first ,i understand ivp is  a hardware that receiver data ,processing data,output data.form now,receive
+data is satelite or brodcat signal to deal with. i understand that  signal as network 's first layer 
+.paser will unsrstand ------->signal-------->deal signal---------->ouput-------->..fro now,my routeline 
+is :what is ivp? how to receive salite signal?
+
+
+
+
 
 
 -----
