@@ -1,10 +1,19 @@
 # quick start
 ```
 ------
+someone
+-------
+i have find that some one 's view donot let me feel softly!!!!!i need to 
+absorb all people's view.
+------
 why 
 -----
 why the world is so many genius ,but am not  i ???
-
+------
+someone
+------
+i findthat china have so many chance in web innovation.
+but i canot do more encourage step.
 
 
 
@@ -107,7 +116,8 @@ first ,i understand ivp is  a hardware that receiver data ,processing data,outpu
 data is satelite or brodcat signal to deal with. i understand that  signal as network 's first layer 
 .paser will unsrstand ------->signal-------->deal signal---------->ouput-------->..fro now,my routeline 
 is :what is ivp? how to receive salite signal?there is a view,vedio codec is that ,from now
-my task ,is to konw that in ivp 's all kins noun is what mean>??????
+my task ,is to konw that in ivp 's all kins noun is what mean>??????from now , i only need to  call
+get method to get infomation,i need to figure out all kinds of items.
 
 
 
