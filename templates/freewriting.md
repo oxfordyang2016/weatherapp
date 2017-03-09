@@ -1,5 +1,13 @@
 # quick start
 ```
+------
+why 
+-----
+why the world is so many genius ,but am not  i ???
+
+
+
+
 -----
 i understand why my  web have no advance ,from my view, ihave no a suit for me  database that is free.i beeleive database i have solution that is i use weatherapp send data to tencent database!!!
 !!!
