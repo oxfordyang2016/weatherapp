@@ -1,14 +1,105 @@
 # quick start
 ```
+-----
+i understand why my  web have no advance ,from my view, ihave no a suit for me  database that is free.i beeleive database i have solution that is i use weatherapp send data to tencent database!!!
+!!!
+
+
+
+-----
+someone
+-------
+i understand my disre of  create a simple appp  ,for 
+i  think i may  not hold or say, i have no so many energy 
+to do  more complix things.
+---
+someoene
+------
+once i believe that i need a clean body and bed room  and cup
+,if own these things ,i will be satisfied.i donot need to worry about my next food and next shoes and so on.
+----
+someone3
+--------
+i will  adopt just a littlite  advance ,i believe this method is healthy
+!!!!
+
+------
+web 
+-------
+i need to rearrange my we b everyday ,i need to updown the web make new days occur in the topest
+web.
+------
+someone
+--------
+i must to rethink my communicate  problem ,such as with mr jin ,
+------
+future
+-------
+i want to  become apple developer!because i want to connect  apple device to server 
+!!!!i wnat to  set all kinds  of data in apple device.
+
+
+
+------
+python
+------
+i need to rethink ,what is my purpose of i want to grasp well python?/??
+
+-----
+english
+------
+i diske english pro ,such as ,as,down,with,i dislike as.
+
+
+
+-----
+freewriting
+-----
+the freeewriting tech do help to understand so many things ,but i hvave no desire to
+rearrange it , i feel so tired!!!!i donot get more stroong disre to improve it
+
+
+
+------
+someone
+--------
+i want to look for a way to improve and level up my pythotn tech 
+but in the one of three of march ,ialmost switch all kinds of python books,
+i  donnot get suitable python books,i may need to rethink  mrs wang 's
+problem-driven to learn.' 
+and i want to set up  a company to host my calender and to do list app 's disre 
+is having bee n so strong.!!!!'
+-----
+python
+-------
+i wnat to jnow python excute a .py script ?what memory occur?????this is my care about problem!!!
+in the most recent,i want to know.when i run  a python  program
+a=1
+b=2
+def test(a,b):
+    reutrn (a+b)
+from csapp view , ithin k memory donot have acllocte for name inly allocate space for value
+when meet a function test,which  will vuild a stack ,i understand that is another space 
+in memory,thet will use csapp theory.FROM  PHD ZHANG,I GET A VIEW ,a=1,a is  not cllocated space and 
+whe python call a test function ,that is ,then,it will allocate a space.     
+
+
+
+
+
+
+-----
+python
+------
+python reserved some word ,we called keywords.
 ------
 ivp
 -------
 first ,i understand ivp is  a hardware that receiver data ,processing data,output data.form now,receive
 data is satelite or brodcat signal to deal with. i understand that  signal as network 's first layer 
 .paser will unsrstand ------->signal-------->deal signal---------->ouput-------->..fro now,my routeline 
-is :what is ivp? how to receive salite signal?
-
-
+is :what is ivp? how to receive salite signal?there is a view,vedio codec is that ,from now
+my task ,is to konw that in ivp 's all kins noun is what mean>??????
 
 
 
