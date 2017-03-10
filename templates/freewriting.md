@@ -1,6 +1,51 @@
 # quick start
 ```
+------
+interpreter
+---------
+in  interpreter  ,there is all kinds of interpretes,usual implement is 
+lisp interpreter.i believe python implement python interpreter is
+very usual.
+-----
+resume
+---------
+i can implement a python interpreter using go lang
+i understand the classical python interpreter how run source code 
+i understand run a python program in mmemory all actions.
+i understand python program call graph.
+i grasp all python algorithm 
+i write a lisp interpreter use python
+------
+someone
+-------
+from now view,i want to get things ,so,this things will  occur ,
+for example,i want to understand
+how python excute a  .py ,
+and the internet and youtube give me how to implement a interpreter.
+python
+-------
+there are intepreter and compiler ,the interpreter will proccess source code
+and run the result of processing,donot need to transform source code
+to machine code ,the aboving machine code is compiler work by compiler.
+-------
+python 
+-------
+i think i need to know python interpreter how to work ,becuase , i donot be get 
+used to gap the stage of how python file to be excute?
+https://ruslanspivak.com/lsbasi-part1/
+http://jayconrod.com/posts/40/a-simple-interpreter-from-scratch-in-python-part-4
+http://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html
+http://stackoverflow.com/questions/16808387/writing-my-own-python-parser-and-interpreter
+https://csl.name/post/vm/
+https://morepypy.blogspot.jp/2011/04/tutorial-writing-interpreter-with-pypy.html
 
+
+
+
+-----
+idiom
+------
+“If you don’t know how compilers work, then you don’t know how computers work. If you’re not 100% sure whether you know how compilers work, then you don’t know how they work.” — Steve Yegge
 ------
 python
 -------
