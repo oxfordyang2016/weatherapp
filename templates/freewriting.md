@@ -1,9 +1,22 @@
 # quick start
 ```
 ------
+interview
+--------
+in interview,i feel that my konwlege is not enough.so .i donot get 
+great job.
+
+
+
+----
+hbr living
+-------
+https://hbr.org/2017/03/if-you-want-to-be-happy-at-work-have-a-life-outside-of-it
+------
 python
 -------
-i think my python consists :before outputing result,what deos python interpreter do??string and byte,unicode,python all method.
+i think my python consists :before outputing result,what deos python interpreter do??string and byte,unicode,python all method.what in-memory 
+actions is??
 
 -----
 python
