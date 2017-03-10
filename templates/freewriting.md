@@ -1,6 +1,28 @@
 # quick start
 ```
 ------
+python
+-------
+i think my python consists :before outputing result,what deos python interpreter do??string and byte,unicode,python all method.
+
+-----
+python
+--------
+python interpreter is composed of compiler and vm.compiler produce 
+bytecode ,vm excute bytecode to produce result.
+
+----
+resume
+-------
+strong english read ability.
+database buckup project
+database lookup tool 
+
+-----
+python
+--------
+heroku run the step pip install -r requirements.txt
+------
 interpreter
 ---------
 in  interpreter  ,there is all kinds of interpretes,usual implement is 
