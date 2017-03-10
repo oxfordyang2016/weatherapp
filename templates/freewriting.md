@@ -1,5 +1,13 @@
 # quick start
 ```
+
+------
+python
+-------
+.py -----> lexicial analysis  generate token stram------->paser use token stream to make abrstract  tree------>ast will be transformed to bytecode--------vitrual machine run bytecode
+
+
+
 ------
 someone
 -------
