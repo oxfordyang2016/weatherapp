@@ -1,13 +1,27 @@
 # quick start
 ```
+-----
+someone
+-------
+once i grasped code , i can use top reascher agency's
+paper to develop my ability and bussiness!!!
+------
+someone
+-------
+chance is great , i can get somethings from paper from
+top university.this is great!!i believe my fortune will from there.i can use machnie to help my english spoken.
+i can make appp  that every one can send a luanguge to the server and the server will response a native language to help language leaner.
+
+
+------
+someone
+--------
+from some view,i have no good rest to lead to my bad status of today!!
 ------
 interview
 --------
 in interview,i feel that my konwlege is not enough.so .i donot get 
 great job.
-
-
-
 ----
 hbr living
 -------
