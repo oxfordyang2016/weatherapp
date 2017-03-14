@@ -3,6 +3,14 @@
 ------
 someone
 -------
+i feel that recently i donot be trusted by caton's nomal people!
+
+
+
+
+------
+someone
+-------
 i have find that some one 's view donot let me feel softly!!!!!i need to 
 absorb all people's view.
 ------
