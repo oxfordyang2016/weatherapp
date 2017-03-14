@@ -1,5 +1,114 @@
 # quick start
 ```
+----
+someone
+-----
+i used to repeat myself in diffcult or complix problem.
+
+
+
+-----
+someone
+-------
+once i grasped code , i can use top reascher agency's
+paper to develop my ability and bussiness!!!
+------
+someone
+-------
+chance is great , i can get somethings from paper from
+top university.this is great!!i believe my fortune will from there.i can use machnie to help my english spoken.
+i can make appp  that every one can send a luanguge to the server and the server will response a native language to help language leaner.
+
+
+------
+someone
+--------
+from some view,i have no good rest to lead to my bad status of today!!
+------
+interview
+--------
+in interview,i feel that my konwlege is not enough.so .i donot get 
+great job.
+----
+hbr living
+-------
+https://hbr.org/2017/03/if-you-want-to-be-happy-at-work-have-a-life-outside-of-it
+------
+python
+-------
+i think my python consists :before outputing result,what deos python interpreter do??string and byte,unicode,python all method.what in-memory 
+actions is??
+
+-----
+python
+--------
+python interpreter is composed of compiler and vm.compiler produce 
+bytecode ,vm excute bytecode to produce result.
+
+----
+resume
+-------
+strong english read ability.
+database buckup project
+database lookup tool 
+
+-----
+python
+--------
+heroku run the step pip install -r requirements.txt
+------
+interpreter
+---------
+in  interpreter  ,there is all kinds of interpretes,usual implement is 
+lisp interpreter.i believe python implement python interpreter is
+very usual.
+-----
+resume
+---------
+i can implement a python interpreter using go lang
+i understand the classical python interpreter how run source code 
+i understand run a python program in mmemory all actions.
+i understand python program call graph.
+i grasp all python algorithm 
+i write a lisp interpreter use python
+------
+someone
+-------
+from now view,i want to get things ,so,this things will  occur ,
+for example,i want to understand
+how python excute a  .py ,
+and the internet and youtube give me how to implement a interpreter.
+python
+-------
+there are intepreter and compiler ,the interpreter will proccess source code
+and run the result of processing,donot need to transform source code
+to machine code ,the aboving machine code is compiler work by compiler.
+-------
+python 
+-------
+i think i need to know python interpreter how to work ,becuase , i donot be get 
+used to gap the stage of how python file to be excute?
+https://ruslanspivak.com/lsbasi-part1/
+http://jayconrod.com/posts/40/a-simple-interpreter-from-scratch-in-python-part-4
+http://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html
+http://stackoverflow.com/questions/16808387/writing-my-own-python-parser-and-interpreter
+https://csl.name/post/vm/
+https://morepypy.blogspot.jp/2011/04/tutorial-writing-interpreter-with-pypy.html
+
+
+
+
+-----
+idiom
+------
+“If you don’t know how compilers work, then you don’t know how computers work. If you’re not 100% sure whether you know how compilers work, then you don’t know how they work.” — Steve Yegge
+------
+python
+-------
+.py -----> lexicial analysis  generate token stram------->paser use token stream to make abrstract  tree------>ast will be transformed to bytecode--------vitrual machine run bytecode
+
+
+
 ------
 someone
 -------
