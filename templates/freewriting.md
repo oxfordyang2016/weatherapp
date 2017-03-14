@@ -1,5 +1,12 @@
 # quick start
 ```
+----
+someone
+-----
+i used to repeat myself in diffcult or complix problem.
+
+
+
 -----
 someone
 -------
