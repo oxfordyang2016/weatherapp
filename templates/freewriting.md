@@ -1,5 +1,44 @@
 # quick start
 ```
+-----
+someone
+----------
+i wnat to write a konwledge map engine.
+
+
+
+------
+someone
+--------
+i find that i lost my way sometimes in the internet ,i donot feel
+my eenrgy and interest.
+
+------
+someone
+------
+i need to live in international hotel to bring  new story to my life
+------
+algorithm
+--------
+i understand algorithm is about :sort ,search,heap,queqe,stack,link list,graph,my view is form
+yanweimin,i can remember sort is very importtant ,sort algorithm has so many types:bubble sort,
+bucket sort,heap sort ,iterate sort,or so on, i canot remember ,bubble sort 's principle is very simple,in ervery iteration,you need  to make the corresponding element to correct position.if there is 1,3,4,2,5'
+for 5>2,you left position ,for 2<4,2 will be in 4  origin postion ,for 2<3,2 will  be in 3's position ,for 
+2>1, i will go 1,i 's left position has no number .first sort is ok!!!!!iin algorithm ,i dislike complixity
+analysis.for i feel that i cannot grasp math and logic in these algorithm.i believe 5,4,3,2,1 is the 
+shit  case of bubble sort.this is o(n*n)! i remember there is another and usual sort algorithm............
+
+
+-----
+cs science
+--------
+My advice to self-learners is: never engage in "cargo-cult programming". This means: do not touch or reuse code that you do not understand. Force yourself to understand. If you lack the time, write it down and follow up later
+
+
+
+
+
+
 ----
 someone
 -----
