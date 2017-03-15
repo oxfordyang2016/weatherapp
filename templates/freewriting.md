@@ -4,9 +4,6 @@
 someone
 ----------
 i wnat to write a konwledge map engine.
-
-
-
 ------
 someone
 --------
