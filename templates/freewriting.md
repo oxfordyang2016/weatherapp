@@ -1,12 +1,14 @@
 # quick start
 ```
+-----
+network
+-------
+i have no strong desire to study my internetwork,mr wang's problem-driven
+is the key of desire.
 ----
 someone
 -----
 i used to repeat myself in diffcult or complix problem.
-
-
-
 -----
 someone
 -------
