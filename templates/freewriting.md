@@ -1,10 +1,459 @@
 # quick start
 ```
+-------
+fudan
+---------
+
+
+2011
+1. 输入3个子串， 输出这3个子串的最大公共子串 。
+2. 输入树的中序和后序排列，输出树的层次遍历。上机要求和评分规则：
+第一题、黑盒测试，只要求程序按格式输出结果正确。
+第二题、按照思路，规范编程，代码三方面综合考虑得分。
+-------
+2012
+三道题。
+1第一道题目是排序问题。1000个成绩输出前30%。最好的做法是用最大堆吧。我用QSORT的。算了一下效率差不多。要是数据量的再大话估计不行了。
+2.第二道题目是二叉树问题。比如节点是ABCDE编号是01234，给出每个左右子树的编号。求最大叶子间距。我是先建树，然后左右子树深度相加的。
+3.第二道是英文题目，为了响应JYB的号召。加强英文考核啊。不过是水题。就是给一个字符串比如ABC 再给一个整数比如3.输出AAABBBCCC就行了。
+第一第三道是黑盒测试。按结果给分。第二道根据算法思想步骤给分。要写注释。
+明天还要面试。给自己加人品吧。
+欢迎补充.
+
+2013
+复旦大学计算机科学技术学院
+专业硕士复试上机考试题（2013-03-27）
+建议时间：120分钟。
+
+评分方法和注意事项：
+1.按考场老师指示的方法和要求提交源代码文件。按题目编号命名和上传源代码文件problem1.cpp、problem2.cpp、problem3.cpp。提交不必要的文件、建不必要的文件夹、不必要的压缩、不按要求命名文件，而导致评测程序找不到对应文件的，将得0分。
+2.第一、二题我们拟只采用黑盒测试，因此：可以不书写注释；更不必美化程序。
+3.第三题我们对未通过黑盒测试的程序，将检查其程序，因此推荐写解题思路、注释，保持良好的编程风格。解题思路以注释的形式，放在源代码文件的开始，建议采用伪代码风格。如果您不能完成全部代码，书写正确的解题思路可能得部分分数。
+4.仔细阅读题目要求，一定要确保您的输入输出严格符合要求。如输入输出格式不严格遵循题目的要求，会导致被判断为结果错误而不得分。没有特别说明的，输入为标准输入（键盘），输出为标准输出（屏幕）。
+5.提交的源代码必须保持无编译错误，提交有编译错误的程序该题直接得-10分。
+6.除题目另有要求外，程序执行时间应在1秒之内，程序中的死循环恕不等待。
+7.不要编写破坏性程序，否则产生的结果对您也是破坏性的，即取消评分资格。
+Problem1: 字符串匹配
+对于主串M和模式串P，找到P在M中出现的所有子串的第一个字符在P中的位置。P中第一个字符所在的位置为0。首行的数字表示有多少组字符串。
+[输入及示例]
+2
+ababababa
+ababa
+aaa
+aa
+[输出及示例]
+0 2 4
+0 1
+(相邻位置之间用一个空格隔开)
+Problem2:A Famous ICPC Team 
+Mr. B, Mr. G, Mr. M and their coach Professor S are planning their way for the ACM-ICPC World Finals. Each of the four has a square-shaped suitcase with side length Ai (1<=i<=4) respectively. They want to pack their suitcases into a large square box. The heights of the large box as well as the four suitcases are exactly the same. So they only need to consider the large box’s side length. Of course, you should write a program to output the minimum side length of the large box, so that the four suitcases can be put into the box without overlapping. 
+[Input] 
+There are N test cases. The first line is N.
+Each test case contains only one line containing 4 integers Ai (1<=i<=4, 1<=Ai<=1,000,000,000) indicating the side length of each suitcase. 
+[Output] 
+For each test case, display a single line containing the case number and the minimum side length of the large box required. 
+[Sample Input] 
+2
+2 2 2 2 
+2 2 2 1 
+[Output for Sample Input] 
+Case 1: 4 
+Case 2: 4 
+[Explanation] 
+For the first case, all suitcases have size 2x2. So they can perfectly be packed in a 4x4 large box without wasting any space. 
+For the second case, three suitcases have size 2x2 and the last one is 1x1. No matter how you rotate or move the suitcases, the side length of the large box must be at least 4. 
+Problem3：A Famous Grid
+Mr. B has recently discovered the grid named "spiral grid". 
+Construct the grid like the following figure. (The grid is actually infinite. The figure is only a small part of it.) 
+
+Considering traveling in it, you are free to any cell containing a composite number or 1, but traveling to any cell containing a prime number is disallowed. You can travel up, down, left or right, but not diagonally. Write a program to find the length of the shortest path between pairs of nonprime numbers, or report it's impossible. 
+
+[Input] 
+There are N test cases. The first line is N.
+Each test case is described by a line of input containing two nonprime integer 1 <=x, y<=10,000. 
+[Output] 
+For each test case, display its case number followed by the length of the shortest path or "impossible" (without quotes) in one line. 
+[Sample Input] 
+3
+1 4 
+9 32 
+10 12 
+[Output for Sample Input] 
+Case 1: 1 
+Case 2: 7 
+Case 3: impossible 
+
+
+
+2014
+复旦大学计算机科学技术学院 专业硕士复试上机考试题（2014-03-26） 
+1. 按考场老师指示的方法和要求提交源代码文件。提交不必要的文件、建不必要的文件夹、不必要的压缩、不按要求命名文件，而导致评测程序找不到对应文件的，将得0分。没有特别说明的，输入和输出均为文本文件，存放在当前目录，即不要指定文件路径。文件命名如下：
+源代码文件 输入文件  输出文件
+第一题 p1.cpp  p1.in p2.out
+第二题 p2.cpp  p2.in p2.out
+第三题 p3.cpp  p3.in p3.out
+第四题 p4.cpp  p4.in p4.out
+
+ 
+2. 代码需使用标准C或C++语法，源代码内不要包含不必要的头文件(允许使用STL库)，一道题的所有代码都要放到同一个.cpp文件中，不要自己写其他头文件。程序的main函数请严格按照以下格式书写，不要使用编程环境自动生成的框架。程序入口必须为main，程序中没有main函数或不符合规定格式导致源码无法被机器正确评阅，将作0分处理。
+//只包含必须的头文件
+//不要使用IDE自动生成的代码框架
+intmain() {
+//此处填写代码
+return 0;
+}
+3. 我们基本采用黑盒测试，因此不完全正确的程序，将可能只得到0分。
+4. 仔细阅读题目要求，一定要确保您的输入输出严格符合要求。如输入输出格式不严格遵循题目的要求，会导致被判断为结果错误而不得分。输入输出示例中的注释文字，不是输入输出的组成部分。
+5. 提交的源代码必须保持无编译错误，提交有编译错误的程序该题直接得-10分。
+6. 除题目另有要求外，程序执行时间应在0.1秒之内，程序中的死循环恕不等待；内存占用不得超过128MB，超过限制的程序将不能通过测试。
+7. 所有题目的测试数据不保证数据具有生活常识上的合理性。
+8. 不要编写破坏性程序，否则产生的结果对您也是破坏性的，即取消评分资格。
+
+
+第一题:  二分查找
+问题定义
+大家一定都能熟练掌握二分查找啦！那么来计算二分的次数吧！
+约定二分的中点mid = (left + right) / 2。
+输入：
+第一行输入一个整数N（N<=10000）。
+第二行输入N个升序整数。
+第三行输入一个待查找的整数（必定在第二行中出现过）。
+输出：
+输出二分查找该整数时，进行过多少次二分。
+输入样例
+5
+18 53 54 74 99 
+53
+输出样例
+2
+
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int count=0,input[10001];
+void search(int s,int e,int key)
+{
+    count++;
+  int mid=(s+e)/2;
+  if(input[mid]==key) return;
+  else if(input[mid]>key) search(s,mid,key);
+  else search(mid,e,key);
+}
+int main()
+{
+  freopen("p1.in","r",stdin);
+  freopen("p1.out","w",stdout);
+  int N,key;
+  cin>>N;
+  for(int i=0;i<N;i++) cin>>input[i];
+  cin>>key;
+  search(0,N-1,key);
+  cout<<count<<endl;
+  fclose(stdin);
+  fclose(stdout);
+    return 0;
+}
+
+第二题:  计算两个字符串的编辑距离
+问题定义
+把两个字符串变成相同的三个基本操作定义如下：
+1.  修改一个字符（如把a  变成b）
+2.  增加一个字符(如abed  变成abedd)
+3.  删除一个字符（如jackbllog  变成jackblog）
+针对于jackbllog 到jackblog  只需要删除一个或增加一个l  就可以把两个字符串变为相同。
+把这种操作需要的最小次数定义为两个字符串的编辑距离L。
+编写程序计算指定文件中字符串的距离。输入两个长度不超过512 字节的ASCII 字符串，在
+屏幕上输出字符串的编辑距离。
+输入样例
+Hello world!
+Hello word!
+输出样例
+13 
+#include<iostream>
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+using namespace std;
+int count;
+int get_len(char *p)
+{
+  int len=0;char *t=p;
+  while(*t++) len++;
+  return len;
+}
+
+void  search(char *s,char *d,int step)
+{
+  if(step>512||step>count) return;//剪枝
+  while(*s==*d&&*d&&*s) s++,d++;
+  if((*s=='\0')&&(*d=='\0'))
+  { 
+    count=min(count,step);
+  }
+  if(*s=='\0')
+  {
+    count=min(count,step+get_len(d));//增加s
+    return;
+  }
+  else if(*d=='\0')
+  {
+    count=min(count,step+get_len(s)); //删除s
+    return;
+  }
+  search(s+1,d+1,step+1);//修改s
+  search(s,d+1,step+1);//增加s
+  search(s+1,d,step+1);//删除s
+}
+int main()
+{
+  
+  freopen("p1.in","r",stdin);
+  freopen("p1.out","w",stdout);
+  char *p1=new char[520];
+  char *p2=new char[520];
+  gets(p1);
+  gets(p2);
+  count=512;
+  search(p1,p2,0);
+  cout<<count<<endl;
+  fclose(stdin);
+  fclose(stdout);
+  return 0;
+
+}
+
+第三题：二叉树遍历
+问题定义
+输入一棵二叉树，输出树的前、中、后序遍历结果。
+输入一个整数N（N<= 10000)，表示树中有N个结点（编号0~N-1）。
+接下来N行，依次为结点0~结点N-1的左右孩子情况。
+每行3个整数，F,L,R。L,R为F的左右孩子。L,R如果为-1表示该位置上没有孩子。
+分三行分别输出树的前中后序遍历。
+同一行中的数字，用一个空格间隔。
+输入样例
+5
+0 3 1
+1 2 -1
+2 -1 4
+3 -1 -1
+4 -1 -1
+输出样例
+0 3 1 2 4
+3 0 2 4 1
+3 4 2 1 0
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+bool spaceflag;
+struct Node
+{
+    int L,R;
+};
+Node info[10001];
+void visit(int key)
+{
+  if(spaceflag) cout<<" "<<key;
+  else 
+  {
+    spaceflag=true;
+      cout<<key;
+  }
+}
+void preorder(int root)
+{
+    if(root==-1) return;
+  visit(root);
+  preorder(info[root].L);
+  preorder(info[root].R);
+}
+void inorder(int root)
+{
+    if(root==-1) return;
+  inorder(info[root].L);
+  visit(root);
+  inorder(info[root].R);
+}
+void postorder(int root)
+{
+    if(root==-1) return;
+  postorder(info[root].L);
+  postorder(info[root].R);
+  visit(root);
+}
+int main()
+{
+  freopen("p1.in","r",stdin);
+  freopen("p1.out","w",stdout);
+  int N,t;
+  cin>>N;
+  while(N--)
+  {
+      cin>>t;
+    cin>>info[t].L>>info[t].R;
+  }
+  spaceflag=false; preorder(0);  cout<<endl;
+  spaceflag=false; inorder(0);   cout<<endl;
+  spaceflag=false; postorder(0); cout<<endl;
+  fclose(stdin);
+  fclose(stdout);
+    return 0;
+}
+
+第四题：Hanoi 塔
+问题定义
+Hanoi 塔问题是印度的一个古老的传说。开天辟地的神勃拉玛在一个庙里留下了三根金刚石的棒，第一根上面套着64 个圆的金片，最大的一个在底下，其余一个比一个小，依次叠上去，庙里的众僧不倦地把它们一个个地从这根棒搬到另一根棒上，规定可利用中间的一根棒作为帮助，但每次只能搬一个，而且大的不能放在小的上面。
+请编写程序，把A 柱上的n 个金片，搬动到C 柱（中间可以使用B 柱），使得搬动的次数最少。输入金片的个数n（1<=n<=64），输出总搬动次数，以及最后100 次搬动。如果搬动次数小于等于100 则全部输出；每个搬动占一行，加上是这第几次搬动的数字和”:”，格式见示例。
+输入样例
+2
+输出样例
+3
+1:A->B
+2:A->C
+3:B->C
+#include<iostream>
+#include<stdio.h>
+#include<math.h>
+using namespace std;
+int acount=1 ,ccount=0;
+void hanoi(int n,char a, char b, char c)
+{
+    if(n==1) 
+  {   
+    if((acount-ccount++)<=100) 
+      cout<<ccount<<':'<<a<<"->"<<c<<endl;
+  }
+  else 
+  {
+      hanoi(n-1,a,c,b);
+      if((acount-ccount++)<=100)
+        cout<<ccount<<':'<<a<<"->"<<c<<endl;
+      hanoi(n-1,b,a,c);
+  }
+}
+int main()
+{
+  freopen("p1.in","r",stdin);
+  freopen("p1.out","w",stdout);
+  int n;
+  cin>>n;
+  for(int i=0;i<n;i++) acount*=2;
+  acount--;
+  cout<<acount<<endl;
+    hanoi(n,'A','B','C');
+  fclose(stdin);
+  fclose(stdout);
+  return 0;
+}
+
+
+
+2015
+今年3道题，比起上交浙大的题真的是简单多了，看没人发帖说一说，来凑个热闹哈
+1.给出长方形的长和宽，每次从长方形里撕去最大的正方形，输出最后能得到多少正方形
+2.给出a,b,c（3个整数），判断a,b能否通过+-*/得到c，ab可以交换位置，可以输出YES，不行输出NO
+3.给出优先队列的实现，实现4个操作
+
+    ADD N P：往队列里加入id为N的优先级为P的任务
+    NEXT:输出下一个最高优先级的任务的id，如果优先级相同输出id小的任务，若队列中没有任务输出-1
+    REMOVE N：移除id为N的任务
+    COUNT：输出队列中的任务数量
+
+
+
+今年上机用的oj，可以多次提交，但每道题只能看前两次提交的分数，oj挺坑的，中间还有会出bug，结果lz也不知道，一直提交，把查看的次数用完了
+
+
+第一道水题劳资居然超时啊，后来看不到分不敢提交啊，坑
+第二道也是水题，第三道直接用priority_queue感觉REMOVE可能会超时，我用的set和map做的
+
+
+
+
+
+--------
+2016
+第一题 给定两个字符串，求最大公共字串的长度 ：   长度小于1000，两个for+string.find暴力可解
+
+第二题 给定一个后缀序列，要求求值，只有加减（后缀倒是无所谓）：
+   水题，后缀直接用栈做就好了，人家复试都是给前缀，要转换的，复旦真是给面子
+
+
+第三题 是给定一个字符串，求哈夫曼编码的最短长度：
+    哈夫曼树做，没什么特别要注意的，有好解法，因为你会发现就是求哈夫曼树的非根结点权值之和，或者所有非叶结点之和，想通了这题异常简单，
+    笨方法建树求高度乘上节点的值也可以，建立指针为叶子指向父结点的树型结构，具体题目要求忘了，记得的可以补充一下
+
+今年的题真的水啊，也就是浙大前三题的难度，今年用了正常的OJ无限次提交，两个小时，因为中间在填志愿收材料所以多加了5分钟
+
+今年的oj可以选择c++的版本，有c++11哦，也就是说unordered_map/set这种神器是可以用的
+
+据我所知一般都是A两道，3道全A的有两个人，全没有AC的也有
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -----
 network
 -------
 i have no strong desire to study my internetwork,mr wang's problem-driven
 is the key of desire.
+=======
+------
+uc-berkely
+---------
+i fell uc berkely 's influence.for them remove youtube 's course have influence 
+so many people in hacker news.
+------
+health
+--------
+i should vare about my throat situation,for it  last 3 years.
+-----
+someone
+----------
+i wnat to write a konwledge map engine.
+------
+someone
+--------
+i find that i lost my way sometimes in the internet ,i donot feel
+my eenrgy and interest.
+
+------
+someone
+------
+i need to live in international hotel to bring  new story to my life
+------
+algorithm
+--------
+i understand algorithm is about :sort ,search,heap,queqe,stack,link list,graph,my view is form
+yanweimin,i can remember sort is very importtant ,sort algorithm has so many types:bubble sort,
+bucket sort,heap sort ,iterate sort,or so on, i canot remember ,bubble sort 's principle is very simple,in ervery iteration,you need  to make the corresponding element to correct position.if there is 1,3,4,2,5'
+for 5>2,you left position ,for 2<4,2 will be in 4  origin postion ,for 2<3,2 will  be in 3's position ,for 
+2>1, i will go 1,i 's left position has no number .first sort is ok!!!!!iin algorithm ,i dislike complixity
+analysis.for i feel that i cannot grasp math and logic in these algorithm.i believe 5,4,3,2,1 is the 
+shit  case of bubble sort.this is o(n*n)! i remember there is another and usual sort algorithm............
+
+
+-----
+cs science
+--------
+My advice to self-learners is: never engage in "cargo-cult programming". This means: do not touch or reuse code that you do not understand. Force yourself to understand. If you lack the time, write it down and follow up later
+
+
+
+
+
+
+>>>>>>> e447faf1447c7729fd2dc8bfb53c0e2be02f0b26
 ----
 someone
 -----
